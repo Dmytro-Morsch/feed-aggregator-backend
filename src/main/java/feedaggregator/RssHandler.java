@@ -1,0 +1,45 @@
+package feedaggregator;
+
+import feedaggregator.module.Item;
+import org.xml.sax.Attributes;
+import org.xml.sax.SAXException;
+import org.xml.sax.helpers.DefaultHandler;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class RssHandler extends DefaultHandler {
+    private StringBuilder text = new StringBuilder();
+    private Item item;
+    private List<Item> items = new ArrayList<>();
+
+    @Override
+    public void characters(char[] ch, int start, int length) throws SAXException {
+        text.append(ch, start, length);
+    }
+
+    @Override
+    public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
+        text.setLength(0);
+
+        if (qName.equals("item")) {
+            item = new Item();
+            items.add(item);
+        }
+    }
+
+    @Override
+    public void endElement(String uri, String localName, String qName) throws SAXException {
+        if (item != null) {
+            switch (qName) {
+                case "title" -> item.setTitle(text.toString());
+                case "description" -> item.setDescription(text.toString());
+                case "link" -> item.setLink(text.toString());
+            }
+        }
+    }
+
+    public List<Item> getItems() {
+        return items;
+    }
+}

@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Вакансії в категорії Java на DOU.ua</title>
+        <link>https://jobs.dou.ua/vacancies/?utm_source=jobsrss&amp;category=Java</link>
+        <description/>
+        <atom:link href="https://jobs.dou.ua/vacancies/feeds/" rel="self"/>
+        <language>uk</language>
+        <lastBuildDate>Mon, 17 Jun 2024 19:30:39 +0300</lastBuildDate>
+        <item>
+            <title>Java Developer в Yael Acceptic, Київ, Харків, Варшава (Польща), віддалено</title>
+            <link>https://jobs.dou.ua/companies/yael-acceptic/vacancies/271136/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;Our company invites tech-savvy and goal-oriented Java Developer. You have a great
+                opportunity to join an experienced team working in an Agile environment.&lt;/p&gt;&lt;h3&gt;About:&lt;/h3&gt;&lt;p&gt;Our
+                state-of-the-art vision technology is designed for counting sea lice and enabling fisheries to make
+                informed decisions about the health and welfare of their stock in real time. This technology helps
+                monitor aquatic environments efficiently, ensuring the highest standards of care and sustainability.&lt;/p&gt;&lt;h3&gt;Responsibilities:&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Design,
+                develop, and maintain scalable and high-performance Java applications;&lt;/li&gt;&lt;li&gt;Collaborate
+                with cross-functional teams to define, design, and ship new features;&lt;/li&gt;&lt;li&gt;Write clean,
+                maintainable, and efficient code;&lt;/li&gt;&lt;li&gt;Conduct code reviews and provide constructive
+                feedback to team members;&lt;/li&gt;&lt;li&gt;Troubleshoot, debug, and resolve software defects and
+                issues;&lt;/li&gt;&lt;li&gt;Participate in the full software development lifecycle, including
+                requirements gathering, design, testing, and deployment;&lt;/li&gt;&lt;li&gt;Stay updated with the
+                latest industry trends and technologies to ensure our solutions are current and competitive.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Requirements:&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;5+ years
+                of professional experience in Java development;&lt;/li&gt;&lt;li&gt;Proficiency in Java 11;&lt;/li&gt;&lt;li&gt;Strong
+                experience with microservices architecture;&lt;/li&gt;&lt;li&gt;Expertise in Spring (MVC, Data,
+                Security);&lt;/li&gt;&lt;li&gt;Proficiency in Hibernate or JooQ;&lt;/li&gt;&lt;li&gt;Experience with AWS
+                services, including S3, SQS, and Lambda;&lt;/li&gt;&lt;li&gt;Strong knowledge of MySQL;&lt;/li&gt;&lt;li&gt;Experience
+                with JUnit and Mockito for testing;&lt;/li&gt;&lt;li&gt;Proficiency in using Docker and Testcontainers;&lt;/li&gt;&lt;li&gt;Experience
+                with Maven for project management;&lt;/li&gt;&lt;li&gt;Advanced level of English, both written and
+                spoken.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Would be a plus:&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Experience with
+                MongoDB;&lt;/li&gt;&lt;li&gt;Knowledge of Redis.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;We offer:&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Professional
+                Development:&lt;/strong&gt; free English courses, access to company’s library, free access to the
+                corporate Udemy account, possibility to participate and share your knowledge as a speaker in our
+                internal meetups, opportunity to work from anywhere (depends on the project).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Benefits:&lt;/strong&gt;
+                100% paid vacation and sick leaves, health insurance, membership in IT Cluster, access to psychological
+                help, office cabinet structure, free accountant and lawyer services, opportunity to accumulate part
+                of the own salary in the company in dollar terms, team building activities.&lt;/p&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/yael-acceptic/vacancies/271136/#reply-btn-id"&gt;Відгукнутись
+                на вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Mon, 17 Jun 2024 19:30:39 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/yael-acceptic/vacancies/271136/?1718641839</guid>
+        </item>
+        <item>
+            <title>Senior Java Engineer в UKEESS Software House, Львів, віддалено</title>
+            <link>https://jobs.dou.ua/companies/ukeess-software-house/vacancies/271110/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;Team of UKEESS Software House is currently looking for a&lt;b&gt; Senior Java Engineer
+                &lt;/b&gt;to join our team for a full-time position (&lt;strong&gt;remotely in Ukraine or in Lviv’s
+                office&lt;/strong&gt;).&lt;/p&gt;&lt;p&gt;&lt;b&gt;About the Customer and the Project:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Our
+                customer is the world’s largest DNA network from the USA. With more than 30 billion digitized global
+                historical records, 100 million family trees, and 18+ million people in their growing database, our
+                customers help people discover their family stories and gain actionable insights about their health and
+                wellness. &lt;/p&gt;&lt;p&gt;&lt;b&gt;Technologies stack:&lt;/b&gt; Java 17/ Spring Boot / Spring (JDBC,
+                JPA, REST) / Mockito / JUnit / AWS (S3, IAM) / Terraform / MySQL &lt;/p&gt;&lt;p&gt;&lt;b&gt;Here are
+                some other qualities we are looking for:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Excellent communication
+                skills &lt;/li&gt;&lt;li&gt;Have the desire to dive deep into complex systems, come up with new creative
+                ideas, and have the ability to visualize a large picture of the whole system.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;In this
+                role,&lt;/b&gt; you will be a leading contributor in designing and implementing the next generation
+                of the project to deliver billions of new discoveries to customers. You will be part of a team that
+                significantly increases the user’s experience and directly influences their satisfaction.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Responsibilities
+                will include:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Help architect, design, and develop complex,
+                large-scale systems that process billions of historical records every day&lt;/li&gt;&lt;li&gt;Identify
+                opportunities to adopt innovative technologies&lt;/li&gt;&lt;li&gt;Create architectures and diagrams
+                that describe them&lt;/li&gt;&lt;li&gt;Work on and guide microservice REST API design&lt;/li&gt;&lt;li&gt;Write
+                key algorithms to maximize scalability and reliability&lt;/li&gt;&lt;li&gt;Write code and unit tests&lt;/li&gt;&lt;li&gt;Conduct
+                code reviews&lt;/li&gt;&lt;li&gt;Diagnose complex problems involving multiple systems and technologies&lt;/li&gt;&lt;li&gt;Be an example
+                of engineering excellence&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Requirements:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Large-scale
+                system experience&lt;/li&gt;&lt;li&gt;Micro-service expertise&lt;/li&gt;&lt;li&gt;5+ years of commercial
+                experience with Java &lt;/li&gt;&lt;li&gt;Commercial experience with Spring and Spring Boot&lt;/li&gt;&lt;li&gt;Commercial
+                experience with relational database &lt;/li&gt;&lt;li&gt;Experience with AWS (S3 preferable) &lt;/li&gt;&lt;li&gt;Experience
+                with Gradle or Maven&lt;/li&gt;&lt;li&gt;Experience with CI/CD&lt;/li&gt;&lt;li&gt;Knowledge
+                or experience with JUnit, Mockito&lt;/li&gt;&lt;li&gt;English: Upper-intermediate at least (both spoken
+                and written)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;It will be a plus:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Knowledge
+                or experience with .NET&lt;/li&gt;&lt;li&gt;Knowledge or experience with Terraform&lt;/li&gt;&lt;li&gt;Container
+                experience&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;&lt;b&gt;What do we offer our new colleague?&lt;/b&gt;&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Competitive
+                compensation (based on market data but also depending on the technical level of the candidate)&lt;/li&gt;&lt;li&gt;Flexible
+                work schedule&lt;/li&gt;&lt;li&gt;3 health packages to choose&lt;/li&gt;&lt;li&gt;Annual paid vacation
+                and state holiday celebration&lt;/li&gt;&lt;li&gt;Free English classes (online)&lt;/li&gt;&lt;li&gt;Individual
+                approach to professional growth&lt;/li&gt;&lt;li&gt;Lack of bureaucracy and micromanagement&lt;/li&gt;&lt;li&gt;Modern,
+                comfortable office facilities (a barbecue zone, kitchens, lounge rooms, coffee machines, etc.)&lt;/li&gt;&lt;li&gt;Foreign
+                business trips (after the war)&lt;/li&gt;&lt;li&gt;On-site parking lot and charge station for Electric
+                Cars&lt;/li&gt;&lt;li&gt;Corporate gifts, celebrations, and fun activities&lt;/li&gt;&lt;li&gt;Sports
+                activities: ping-pong, soccer, work-out&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Suppose you have a passion for
+                solving challenging problems, building scalable, robust systems, love working with the latest
+                technologies in a fast-paced, flexible environment, and are excited at the prospect of having
+                a significant impact on products with more than 3 million paying subscribers. In that case, we want
+                to talk to you! ;-)&lt;/p&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/ukeess-software-house/vacancies/271110/#reply-btn-id"&gt;Відгукнутись
+                на вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Mon, 17 Jun 2024 17:50:48 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/ukeess-software-house/vacancies/271110/?1718635848</guid>
+        </item>
+        <item>
+            <title>Senior Backend Engineer (Python/Java) в Newxel, віддалено</title>
+            <link>https://jobs.dou.ua/companies/newxel/vacancies/263409/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;As a Backend Developer, you’ll be at the forefront of innovation, shaping the next
+                generation of the core application (XAP) while diving into an exhilarating Generative AI innovation
+                project.&lt;/p&gt;&lt;h3&gt;Responsibilities&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Generative AI Innovation
+                Project:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Work collaboratively on the conceptualization and
+                implementation of our cutting-edge AI project&lt;/li&gt;&lt;li&gt;Bring your creativity to the table,
+                contributing innovative ideas to enhance AI capabilities&lt;/li&gt;&lt;li&gt;Dive into coding,
+                implementing new features to push the boundaries of AI&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Core
+                Product (XAP) Development:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Drive the development of our core
+                product (XAP), crafting new features and enhancements to meet evolving customer needs&lt;/li&gt;&lt;li&gt;Provide
+                steadfast support, troubleshooting bugs, and resolving issues to ensure seamless operation&lt;/li&gt;&lt;li&gt;Fine-tune
+                existing functionalities for optimal performance and efficiency&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Requirements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;B.Sc.
+                degree in Computer Science, Engineering, or Mathematics (or equivalent experience)&lt;/li&gt;&lt;li&gt;5+ years
+                of hands-on experience in backend development&lt;/li&gt;&lt;li&gt;Proficiency in Python programming
+                languages (Java as a big plus)&lt;/li&gt;&lt;li&gt;Extensive experience working in cloud production
+                environments&lt;/li&gt;&lt;li&gt;Development experience in Kubernetes environments (k8s, OpenShift, EKS)&lt;/li&gt;&lt;li&gt;Proficiency
+                with both SQL and NoSQL databases&lt;/li&gt;&lt;li&gt;Strong grasp of server-client architecture&lt;/li&gt;&lt;li&gt;Proactive,
+                driven, and detail-oriented individual&lt;/li&gt;&lt;li&gt;Familiarity with Agile development
+                methodologies and ability to thrive in a fast-paced, iterative environment&lt;/li&gt;&lt;li&gt;Strong
+                sense of ownership, taking initiative to solve problems and optimize systems&lt;/li&gt;&lt;li&gt;Excellent
+                communication and presentation skills&lt;/li&gt;&lt;li&gt;A team player with a quick learning
+                disposition and the ability to work independently&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Will be a plus&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Experience
+                with generative AI development frameworks like langchain or llamaindex&lt;/li&gt;&lt;li&gt;Familiarity
+                with vector databases (e.g., Milvus, Pinecone) and embeddings&lt;/li&gt;&lt;li&gt;Experience with LLMs
+                interfaces and popular LLMs hubs, such as HuggingFace&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;What we offer&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Competitive
+                salary and benefits package&lt;/li&gt;&lt;li&gt;Medical insurance&lt;/li&gt;&lt;li&gt;Tax compensation&lt;/li&gt;&lt;li&gt;Full
+                Remote&lt;/li&gt;&lt;li&gt;Collaborative and innovative work environment&lt;/li&gt;&lt;li&gt;Career
+                growth and development opportunities&lt;/li&gt;&lt;li&gt;A chance to work with a talented and driven
+                team of professional&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;About the project&lt;/h3&gt;&lt;p&gt;Our client
+                develops a unique in-memory platform using innovative Machine Learning technologies. The product aims
+                to help businesses’ achieve data and analytics processing needs with the highest speed, and to deliver
+                real-time performance by reproducing companies’ data to the in-memory data store. An impressively
+                fast-growing company that partners with the most leading enterprises from all over the world within
+                various industries including healthcare, telecommunications, retail, etc.&lt;/p&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/newxel/vacancies/263409/#reply-btn-id"&gt;Відгукнутись на
+                вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Mon, 17 Jun 2024 17:39:43 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/newxel/vacancies/263409/?1718635183</guid>
+        </item>
+        <item>
+            <title>FullStack Java developer в Integrio Systems, віддалено</title>
+            <link>https://jobs.dou.ua/companies/integrio-systems/vacancies/271108/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;We are looking for a Java Developer.&lt;br&gt;Integrio Systems has been steadily
+                in the market since 2002 &lt;br&gt;Java is the company’s main technology.&lt;/p&gt;&lt;p&gt;We hire
+                developers for long-term collaboration.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Main Requirements:&lt;/strong&gt;
+                &lt;br&gt;· Experience with JSP/Servlet API and Vanilla JavaScript&lt;br&gt;· 3+ years of experience
+                as a Java Developer&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Project:&lt;/strong&gt; &lt;br&gt;This is a bus
+                transportation system with GPS navigation, for drivers/ staff/ customers.&lt;br&gt;It is a Canadian
+                government project.&lt;br&gt;The main points &lt;br&gt;1 — project uses older technologies&lt;br&gt;2 —
+                previously, a team from India worked on it&lt;br&gt;3- nowadays, a team from Ukraine is working on the
+                project. Fix the main issues in the old version and start rewriting the project for new technologies
+                in the nearest plans.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Additional Requirements:&lt;/strong&gt; &lt;br&gt;·
+                Java 1.8&lt;br&gt;· JDBC&lt;br&gt;· HTML&lt;br&gt;· Bootstrap&lt;br&gt;· Server Socket&lt;/p&gt;&lt;p&gt;&lt;strong&gt;We offer:&lt;/strong&gt;
+                &lt;br&gt;· Work in high proficiency team&lt;br&gt;· Competitive salary&lt;br&gt;· Long-term
+                employment — we are on the market for 20+ years and care of our staff: your performance quality is your
+                protection so even if specific project ends or terminated we will offer you a new job&lt;br&gt;·
+                Flexible working hours&lt;br&gt;· Annual paid vacation&lt;br&gt;· Paid sick leaves and holidays&lt;br&gt;·
+                Full remote&lt;/p&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/integrio-systems/vacancies/271108/#reply-btn-id"&gt;Відгукнутись
+                на вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Mon, 17 Jun 2024 17:37:33 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/integrio-systems/vacancies/271108/?1718635053</guid>
+        </item>
+        <item>
+            <title>Senior Java Developer в IT SmartFlex, Київ, віддалено</title>
+            <link>https://jobs.dou.ua/companies/it-smartflex/vacancies/236727/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;&lt;strong&gt;IT SmartFlex&lt;/strong&gt; — це продуктова українська компанія,
+                заснована 2019 року як дочірня компанія провідного мобільного оператора Vodafone Ukraine з метою
+                об’єднати експертів у сферах телекомунікацій і програмного забезпечення.&lt;br&gt;&lt;br&gt;Наша ціль —
+                розвивати та поглиблювати власну IT-експертизу. Ми створюємо новітні проектні рішення для
+                телеком-індустрії та розробляємо продукти високої якості для мільйонів користувачів мобільного зв’язку.&lt;br&gt;&lt;br&gt;&lt;b&gt;Задачі&lt;/b&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Реалізація
+                бізнес-логіки&lt;/li&gt;&lt;li&gt;Проектування та розробка мікросервісів&lt;/li&gt;&lt;li&gt;Дизайн
+                і розробка REST API&lt;/li&gt;&lt;li&gt;Розробка інтеграції із зовнішніми системами, використовуючи
+                різні протоколи&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Вимоги:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;5+ роки
+                досвіду роботи в програмуванні на Java з високонавантаженими виробничими рішеннями&lt;/li&gt;&lt;li&gt;Чудове
+                розуміння Dependency Injection та досвід роботи з фреймворками Spring&lt;/li&gt;&lt;li&gt;Добре
+                розуміння мікросервісної архітектури, досвід реалізації RESTful API&lt;/li&gt;&lt;li&gt;Високий рівень
+                знань Oracle або інших баз даних (SQL або NoSQL)&lt;/li&gt;&lt;li&gt;Хороші знання Kafka або інших
+                брокерів повідомлень&lt;/li&gt;&lt;li&gt;Розуміння практики Test-Driven Development&lt;/li&gt;&lt;li&gt;Досвід
+                з роботи з CI/CD (Gitlab CI, Jenkins)&lt;/li&gt;&lt;li&gt;Досвід з Git і Docker&lt;/li&gt;&lt;li&gt;Базові
+                знання Linux&lt;/li&gt;&lt;li&gt;Буде великим плюсом знання TM Forum&lt;/li&gt;&lt;li&gt;Рівень
+                англійської від Upper-intermediate&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Ми пропонуємо:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Цікаві
+                проекти та передові технології&lt;/li&gt;&lt;li&gt;Високопрофесійну та мотивовану команду&lt;/li&gt;&lt;li&gt;Гнучкий
+                графік роботи та можливість працювати віддалено&lt;/li&gt;&lt;li&gt;Корпоративні тренінги, професійні
+                конференції, спеціалізовані курси&lt;/li&gt;&lt;li&gt;Обмін знаннями та кращими практиками, спільноти
+                за інтересами&lt;/li&gt;&lt;li&gt;Медичне страхування з першого місяця роботи&lt;/li&gt;&lt;li&gt;24 дні
+                оплачуваної відпустки&lt;/li&gt;&lt;li&gt;Оплачувані лікарняні&lt;br&gt;&lt;br&gt;Якщо Ви цінуєте
+                командну роботу, прагнете працювати з передовими технологіями, налаштовані на професійне зростання разом
+                з компанією — ми чекаємо на Вас!&lt;/li&gt;&lt;/ul&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/it-smartflex/vacancies/236727/#reply-btn-id"&gt;Відгукнутись
+                на вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Mon, 17 Jun 2024 16:07:40 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/it-smartflex/vacancies/236727/?1718629660</guid>
+        </item>
+        <item>
+            <title>Senior Scala Developer (Azerbaijan) в Intellectsoft</title>
+            <link>https://jobs.dou.ua/companies/intellectsoft/vacancies/271074/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;&lt;strong&gt;Project Selling Points:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The
+                Client is a well-known technology provider for the world’s leading banks, asset managers, and hedge
+                funds. Its suite of solutions sets the standard.&lt;/li&gt;&lt;li&gt;The product is one of the key
+                company’s projects, that covers post-trading activities&lt;/li&gt;&lt;li&gt;This is a development of new
+                features from scratch&lt;/li&gt;&lt;li&gt;long-term project&lt;/li&gt;&lt;li&gt;UK time zone&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;We’re
+                looking for a Scala Software Engineer who will be responsible for software development for our biggest
+                client initiatives. Our projects vary across multiple industries including Bond Issuance, Stock Loan,
+                and Swaps to deliver a seamless, optimized experience all the way to the end user. You will work
+                directly with our clients to understand and solve their largest pain points. This is backend Scala
+                organization with expertise in Go and Solidity. Frontend runs on React. They use multiple frameworks
+                such as Zio, Akka, and Play. Some other tools they use include Kafka and Postgres.&lt;/p&gt;&lt;h3&gt;Requirements&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Education:
+                &lt;/strong&gt;Bachelor’s degree in Computer Science, Engineering, or a related field. Master’s degree
+                preferred.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Experience:&lt;/strong&gt; Minimum 4+ years of professional
+                software development experience with Scala functional programming&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Technical
+                Skills:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Experience with Akka, Typelevel, CatsEffect or ZIO&lt;/li&gt;&lt;li&gt;Experience
+                building REST API services&lt;/li&gt;&lt;li&gt;Comfort with large data sets, preferably experience with
+                Redis PostgreSQL, MySQL, Oracle, or DB2&lt;/li&gt;&lt;li&gt;Knowledge of security best practices for
+                application architecture, communication protocols, and AWS infrastructure&lt;/li&gt;&lt;li&gt;Comfort
+                with workflows in Gitlab, Jira, and Confluence&lt;/li&gt;&lt;li&gt;Best practices for facilitating Agile
+                and Test Driven Development&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Leadership Skills:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Proven
+                experience in leading development teams and mentoring junior developers.&lt;/li&gt;&lt;li&gt;Excellent
+                communication skills with the ability to articulate technical concepts to non-technical stakeholders.&lt;/li&gt;&lt;li&gt;Problem-Solving
+                Abilities: Strong analytical and problem-solving skills with the ability to analyze complex technical
+                issues and propose effective solutions.&lt;/li&gt;&lt;li&gt;Team Player: Ability to work collaboratively
+                in a fast-paced, dynamic environment and contribute positively to the team’s success.&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Adaptability:
+                Willingness to learn new technologies and adapt to changing project requirements and priorities.&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Attention
+                to Detail: Strong attention to detail with a focus on delivering high-quality, maintainable code.&lt;/li&gt;&lt;li&gt;Self-Motivated:
+                Ability to work independently with minimal supervision, taking ownership of tasks and driving them
+                to completion.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Nice to have skills:&lt;/strong&gt;
+                Experience with web development technologies including HTML, CSS, JavaScript, and frameworks like
+                Angular or React. Knowledge of cloud platforms, especially AWS.&lt;/p&gt;&lt;h3&gt;Responsibilities&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Software
+                Development: Lead the design, development, and implementation of high-quality software solutions using
+                Scala and related technologies.&lt;/li&gt;&lt;li&gt;Technical Leadership: Provide technical guidance and
+                mentorship to junior developers, ensuring adherence to best practices and coding standards.&lt;/li&gt;&lt;li&gt;Architectural
+                Design: Collaborate with architects to design scalable and maintainable software architectures that meet
+                business requirements.&lt;/li&gt;&lt;li&gt;Code Reviews: Conduct and participate in code reviews
+                to ensure code quality, performance, and adherence to coding standards.&lt;/li&gt;&lt;li&gt;Problem
+                Solving: Analyze complex technical problems and propose solutions that are efficient, scalable, and
+                robust.&lt;/li&gt;&lt;li&gt;Documentation: Create and maintain technical documentation including design
+                documents, API specifications, and developer guides.&lt;/li&gt;&lt;li&gt;Collaboration: Work closely
+                with cross-functional teams including product managers, designers, and QA engineers to deliver
+                high-quality software solutions.&lt;/li&gt;&lt;li&gt;Continuous Improvement: Stay updated with the
+                latest technologies and industry trends, and advocate for the adoption of best practices and new tools.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Benefits&lt;/h3&gt;&lt;ul&gt;&lt;ul&gt;&lt;li&gt;35 paid
+                absence days per year for work-life balance of each specialist + 1 additional day for each following
+                year of cooperation with the company&lt;/li&gt;&lt;li&gt;Up to 15 unused absence days can be add
+                to income after 12 month of cooperation&lt;/li&gt;&lt;li&gt;Health insurance for you and your family!&lt;/li&gt;&lt;li&gt;Depreciation
+                coverage for personal laptop usage for project needs&lt;/li&gt;&lt;li&gt;Udemy courses of your choice&lt;/li&gt;&lt;li&gt;Regular
+                soft-skills trainings&lt;/li&gt;&lt;li&gt;Excellence Сenters meetups&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/intellectsoft/vacancies/271074/#reply-btn-id"&gt;Відгукнутись
+                на вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Mon, 17 Jun 2024 14:18:44 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/intellectsoft/vacancies/271074/?1718623124</guid>
+        </item>
+        <item>
+            <title>Java Developer — HOF в Playtika, Київ</title>
+            <link>https://jobs.dou.ua/companies/playtika-ua/vacancies/271057/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;&lt;b&gt;We are looking for a Java Developer to join our team on a full-time basis.
+                &lt;/b&gt;&lt;/p&gt;
+
+                &lt;h2&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt; &lt;/h2&gt;&lt;ul&gt;&lt;li&gt;You will design
+                and implement scalable feature services using modern technologies and practices &lt;/li&gt;&lt;li&gt;As a software
+                engineer, you will manage complexity through thoughtful software design to ensure we can grow and scale
+                our product without sacrificing development speed or quality &lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Our
+                technology stack is pretty wide, in our recent projects we mainly used Java, Spring Boot, Spring Cloud,
+                Spring Data; Aerospike, Apache Kafka, Docker, AI tools, and other tools and frameworks that helped us
+                to build fast, reliable, highly scalable microservices. &lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;h2&gt;&lt;strong&gt;Requirements:
+                &lt;/strong&gt; &lt;/h2&gt;&lt;ul&gt;&lt;li&gt;5+ years of Java development experience &lt;/li&gt;&lt;li&gt;Knowledge
+                (Java Core, multithreading), awareness of current web development standards and frameworks (e.g. Spring
+                Framework) &lt;/li&gt;&lt;li&gt;Knowledge of concurrency, resiliency, caching &lt;/li&gt;&lt;li&gt;A mastery
+                of object-oriented design, design patterns, and software design best practices&lt;/li&gt;&lt;li&gt;Proficiency
+                at understanding an existing codebase, learning from it, and documenting/explaining when needed&lt;/li&gt;&lt;li&gt;Team
+                player&lt;/li&gt;&lt;li&gt;English Intermediate+ &lt;/li&gt;&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;&lt;h2&gt;&lt;strong&gt;Nice
+                to have:&lt;/strong&gt; &lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Experience with messaging systems (Kafka, Kafka
+                Streams) &lt;/li&gt;&lt;li&gt;NoSQL database experience (we use Aerospike/Redis) &lt;/li&gt;&lt;li&gt;Experience
+                in decomposing technical tasks and defining the level of effort for complex services &lt;/li&gt;&lt;li&gt;Expertise
+                in building highly scalable, fault-tolerant, distributed services&lt;/li&gt;&lt;li&gt;Experience using
+                test-driven development &lt;/li&gt;&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;&lt;h2&gt;We offer all our employees:&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Competitive
+                salary, performance-based bonuses and flexible working hours&lt;/li&gt;&lt;li&gt;Social package,
+                including sports and enrichment classes compensation, medical insurance with dental coverage&lt;/li&gt;&lt;li&gt;Own
+                educational platform with courses, training programs, certifications&lt;/li&gt;&lt;li&gt;Annual salary
+                review&lt;/li&gt;&lt;li&gt;20 working days paid vacation and sick leave&lt;/li&gt;&lt;li&gt;Corporate
+                celebrations, team buildings and fun activities&lt;/li&gt;&lt;li&gt;Free meals twice a day, refreshments&lt;/li&gt;&lt;li&gt;Technical
+                library with option to order books&lt;/li&gt;&lt;li&gt;Coaching and reviews to support your career
+                development&lt;/li&gt;&lt;li&gt;Internal mobility program&lt;/li&gt;&lt;li&gt;Help and support for
+                candidates from other cities&lt;/li&gt;&lt;li&gt;Working for one of the top social gaming companies
+                in the world&lt;/li&gt;&lt;/ul&gt;&lt;br&gt; &lt;blockquote&gt;&lt;b&gt;Playtika&lt;/b&gt; is a leader
+                of innovation and excellence in interactive entertainment. From humble beginnings as a startup in 2010,
+                and with cheetah-like instincts, we’ve grown to become an industry leader with more than 9 million daily
+                and 31 million monthly active users across our portfolio of games. &lt;br&gt;&lt;p&gt;&lt;br&gt;&lt;b&gt;At Playtika&lt;/b&gt;,
+                we are on a mission to continue creating infinite ways to play. We remain committed to pushing the
+                boundaries of what’s possible. We leverage our talent and the latest technology to create even more
+                immersive and engaging experiences for our players, delighting them with our award-winning and
+                category-leading games. &lt;br&gt;&lt;/p&gt; &lt;p&gt;&lt;br&gt;&lt;b&gt;We offer&lt;/b&gt; a space
+                where people from all walks of life can come together, share their experiences, and build lasting
+                connections. Playtika has more than 3,500 employees worldwide, headquartered in Herzliya, Israel with
+                sites in: Ramat Gan, Berlin, Vienna, Helsinki, Chicago, Las Vegas, Newport Beach, Sydney, Bucharest,
+                Warsaw, Kyiv, Minsk, Dnipro and Vinnytsia. &lt;br&gt;&lt;/p&gt; &lt;p&gt;&lt;br&gt;We are an equal
+                opportunity employer and value diversity at our company. We do not discriminate on the basis of race,
+                religion, color, national origin, gender, sexual orientation, age, marital status, veteran status,
+                or disability status. &lt;br&gt;&lt;/p&gt; &lt;p&gt;&lt;br&gt;&lt;b&gt;Ready to bring infinite ways
+                to play into people’s lives? We want you, come join us! &lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;/blockquote&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/playtika-ua/vacancies/271057/#reply-btn-id"&gt;Відгукнутись на
+                вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Mon, 17 Jun 2024 13:39:13 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/playtika-ua/vacancies/271057/?1718620753</guid>
+        </item>
+        <item>
+            <title>Lead Full Stack Software Engineer (Java+React) (#1645) в N-iX, Київ, Львів, Дніпро, Вінниця,
+                Івано-Франківськ, Тернопіль, віддалено
+            </title>
+            <link>https://jobs.dou.ua/companies/n-ix/vacancies/258418/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;We are looking for a skillful &lt;strong&gt;Lead Software Engineer&lt;/strong&gt;
+                to join our team.&lt;/p&gt;&lt;p&gt;About the project:&lt;/p&gt;&lt;p&gt;Our customer is the leading
+                school transportation provider in North America, being the owner of more than a half of all yellow
+                school buses in the United States. Every day, the company completes 5 million student journeys, moving
+                more passengers than all U.S. airlines combined and delivers reliable, quality services for 1,100 school
+                districts. &lt;/p&gt;&lt;p&gt;N-iX has built a successful cooperation with the client delivering a range
+                of complex initiatives. As a result, N-iX has been selected as a strategic long-term partner to drive
+                the digital transformation on an enterprise level, fully remodeling the technology landscape for 55,000
+                employees and millions of people across North America. &lt;/p&gt;&lt;p&gt;As a Lead Software Engineer,
+                you will take part in developing software solutions that support client business needs and integrating
+                various systems into the newly built solution. You will enjoy the latest technologies, a new product,
+                and a friendly and professional team by your side.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Lead
+                high-performance, cross-functional agile teams throughout the SDLC to deliver critical business features&lt;/li&gt;&lt;li&gt;Driving
+                the entire development cycle, including design, architecture, development, and DevOps&lt;/li&gt;&lt;li&gt;Communicate
+                with cross-functional teams about service integrations and components reusability&lt;/li&gt;&lt;li&gt;Promote
+                best practices to improve the quality of our code and processes&lt;/li&gt;&lt;li&gt;Research and
+                evaluate technical options to implement business requirements&lt;/li&gt;&lt;li&gt;Provide system
+                or technical development expertise to the team&lt;/li&gt;&lt;li&gt;Write quality, maintainable code with
+                extensive test coverage in a fast-paced professional software engineering environment&lt;/li&gt;&lt;li&gt;Work
+                in close contact with team members and project stakeholders&lt;/li&gt;&lt;li&gt;Suggest technical and
+                functional improvements to add value to the product and tackle technical debt&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Requirements&lt;/strong&gt;:
+                &lt;/p&gt;&lt;ul&gt;&lt;li&gt;5+ years of software development experience&lt;/li&gt;&lt;li&gt;4+ years
+                of extensive Java development&lt;/li&gt;&lt;li&gt;2+ years of experience with frontend development (SPA
+                apps)&lt;/li&gt;&lt;li&gt;2+ years of experience as a Tech lead in a mature agile team with 5+ team
+                members&lt;/li&gt;&lt;li&gt;&lt;nobr&gt;2-3&lt;/nobr&gt; years of Spring framework and building Spring
+                web applications&lt;/li&gt;&lt;li&gt;Practical experience with React.js&lt;/li&gt;&lt;li&gt;Understanding
+                and experience developing and deploying microservices&lt;/li&gt;&lt;li&gt;Experience developing
+                integration layers (using REST interfaces, Graphql, Kafka)&lt;/li&gt;&lt;li&gt;Excellent design, coding,
+                and debugging skills&lt;/li&gt;&lt;li&gt;Understanding of the application containerization and
+                orchestration technologies&lt;/li&gt;&lt;li&gt;OOP, OOD, Design Patterns proficient&lt;/li&gt;&lt;li&gt;Knowledge
+                of relational databases (preferably PostgreSQL)&lt;/li&gt;&lt;li&gt;Experience with AWS services (ECS,
+                Lambda, Aurora)&lt;/li&gt;&lt;li&gt;Upper-Intermediate/Advanced English level&lt;/li&gt;&lt;li&gt;Excellent
+                communication and organization skills, product-oriented mindset, focus on team results, willingness
+                to constant personal and team improvements, leadership qualities&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Nice
+                to have:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Familiarity with DataDog&lt;/li&gt;&lt;li&gt;Understanding
+                of feature flagging, A/B testing, continuous release lifecycles&lt;/li&gt;&lt;/ul&gt; &lt;div
+                class="content-conclusion"&gt;&lt;p&gt;&lt;strong&gt;We offer:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Flexible
+                working format — remote, office-based or flexible&lt;/li&gt;&lt;li&gt;A competitive salary and good
+                compensation package&lt;/li&gt;&lt;li&gt;Personalized career growth&lt;/li&gt;&lt;li&gt;Professional
+                development tools (mentorship program, tech talks and trainings, centers of excellence, and more)&lt;/li&gt;&lt;li&gt;Active
+                tech communities with regular knowledge sharing&lt;/li&gt;&lt;li&gt;Education reimbursement&lt;/li&gt;&lt;li&gt;Memorable
+                anniversary presents&lt;/li&gt;&lt;li&gt;Corporate events and team buildings&lt;/li&gt;&lt;li&gt;Other
+                location-specific benefits&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/n-ix/vacancies/258418/#reply-btn-id"&gt;Відгукнутись на
+                вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Mon, 17 Jun 2024 10:18:06 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/n-ix/vacancies/258418/?1718608686</guid>
+        </item>
+        <item>
+            <title>Senior Full Stack Engineer (Java + React) (#1554) в N-iX, Бухарест (Румунія), Краків (Польща), Софія
+                (Болгарія), Вроцлав (Польща), віддалено
+            </title>
+            <link>https://jobs.dou.ua/companies/n-ix/vacancies/258416/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;We are looking for an experienced &lt;strong&gt;Senior Java Full Stack Engineer&lt;/strong&gt;
+                to join our development team.&lt;/p&gt;&lt;p&gt;Our customer is an integrated Shipping Service that has
+                set itself apart as an independent carrier with a fresh, unique approach. His strategy as a global niche
+                carrier offers distinctive advantages to customers worldwide. We have created a smart, efficient network
+                that ensures stable, reliable services; and we have made it our mission to focus on the needs of our
+                customers, who stand at the heart of all our decisions. The main idea of our product is to operate
+                in select trades, where it has a competitive advantage and where it can provide superior service.
+                We maintain a flexible partnership approach with other major carriers, and our new line structure
+                is a much-needed alternative to customers concerned about the current alliance-dominated market.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Hand
+                on full stack development of innovative applications&lt;/li&gt;&lt;li&gt;Owning the entire development
+                cycle, including design, architecture, development, and DevOps&lt;/li&gt;&lt;li&gt;Working in XP with
+                Remote pairing&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;At least
+                4+ years in full stack development with Java, Spring and Scala&lt;/li&gt;&lt;li&gt;Experience with
+                Functional Programming and Java Streams&lt;/li&gt;&lt;li&gt;At least 4+ years of experience in FE
+                development with modern JavaScript Framework/libraries (Angular/ React, Vue).&lt;/li&gt;&lt;li&gt;Experience
+                with developing a reactive UI (Reactive JS).&lt;/li&gt;&lt;li&gt;Ag least 2+ years of experience
+                in TDD/BDD development in the following frameworks: Junit, Jasmin, Mockito, Protractor/Selenium&lt;/li&gt;&lt;li&gt;At least
+                2+ years of experience in micro-services-based architecture and tools (Spring Boot/Cloud)&lt;/li&gt;&lt;li&gt;Experience
+                in DevOps development and Jenkins.&lt;/li&gt;&lt;li&gt;Experience in designing, developing, and
+                deploying cloud/hybrid-based solutions.&lt;/li&gt;&lt;li&gt;Experience in developing and deploying
+                in Container based environments (Kubernetes, Cloud foundry).&lt;/li&gt;&lt;li&gt;Familiarity with the
+                following design concepts: micro-services, service discovery, circuit breaker.&lt;/li&gt;&lt;li&gt;Self-starter
+                with the ability to appropriately priorities and plan complex work in a rapidly changing environment.&lt;/li&gt;&lt;li&gt;Versatility
+                and capability to switch easily between different tasks and technologies. &lt;/li&gt;&lt;li&gt;Experience
+                in assessing a broad range of information solutions and products.&lt;/li&gt;&lt;li&gt;Strong critical
+                thinker with problem solving aptitude.&lt;/li&gt;&lt;li&gt;At least Upper-Intermediate level of English
+                &lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Would be a plus:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Experience
+                in development in Kotlin&lt;/li&gt;&lt;/ul&gt;&lt;p&gt; &lt;/p&gt; &lt;div class="content-conclusion"&gt;&lt;p&gt;&lt;strong&gt;We offer:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Flexible
+                working format — remote, office-based or flexible&lt;/li&gt;&lt;li&gt;A competitive salary and good
+                compensation package&lt;/li&gt;&lt;li&gt;Personalized career growth&lt;/li&gt;&lt;li&gt;Professional
+                development tools (mentorship program, tech talks and trainings, centers of excellence, and more)&lt;/li&gt;&lt;li&gt;Active
+                tech communities with regular knowledge sharing&lt;/li&gt;&lt;li&gt;Education reimbursement&lt;/li&gt;&lt;li&gt;Memorable
+                anniversary presents&lt;/li&gt;&lt;li&gt;Corporate events and team buildings&lt;/li&gt;&lt;li&gt;Other
+                location-specific benefits&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/n-ix/vacancies/258416/#reply-btn-id"&gt;Відгукнутись на
+                вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Mon, 17 Jun 2024 10:17:55 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/n-ix/vacancies/258416/?1718608675</guid>
+        </item>
+        <item>
+            <title>Java Technical Lead в Playtika, Київ</title>
+            <link>https://jobs.dou.ua/companies/playtika-ua/vacancies/267563/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;&lt;b&gt; We are looking for a Java Technical Lead to join our team on a full-time
+                basis.&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt; &lt;h2 id="responsibilities-title" class="top-req"&gt;Responsibilities:&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Provide
+                technical quality: Plan refactoring activities; assist in managing technical debt; assist in creating
+                technical tasks; help the domain team members to resolve ongoing issues (guidelines);&lt;/li&gt;&lt;li&gt;Provide
+                product quality: Code review; QA assistance/consulting (if needed); be the focal point for production
+                issues and cross-teams bugs; incident management handling; help the team with CE’s; provide and push
+                non-functional requirements;&lt;/li&gt;&lt;li&gt;Technology-wise: Understand Playtika standards and
+                project codebase in detail; be responsible for new libraries/frameworks/approaches usage; write code
+                on regular basis;&lt;/li&gt;&lt;li&gt;Automation of development cycle: Improve the CI/CD for the
+                specific domain (if needed);&lt;/li&gt;&lt;li&gt;Knowledge sharing: Responsible person for technical
+                documentation (wiki); knowledge sharing on regular basis (scheduled event — bi-weekly domain meetings);&lt;/li&gt;&lt;li&gt;Architectural
+                wise: Help the team to collect technical requirements; be involved in feature prototyping process; help
+                architect to review the domain (server, client) capacity, help to architects to build High Level
+                Design/System Design Document;&lt;/li&gt;&lt;li&gt;Present our products and results of our work.&lt;/li&gt;&lt;/ul&gt;&lt;h2
+                id="requirements-title" class="top-req"&gt;Requirements:&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;5+ years of Java
+                development experience&lt;/li&gt;&lt;li&gt;Extensive knowledge of Java 11&lt;/li&gt;&lt;li&gt;Strong
+                awareness of Spring stack (Spring Framework, Spring Boot, Spring Cloud);&lt;/li&gt;&lt;li&gt;Experience
+                with messaging systems (e.g., Kafka, RabbitMQ)&lt;/li&gt;&lt;li&gt;Experience of testing frameworks
+                (Junit, Spock, etc)&lt;/li&gt;&lt;li&gt;Experience with decomposing technical tasks and defining level
+                of effort for complex systems&lt;/li&gt;&lt;li&gt;Knowledge of Object-Oriented Design and Development&lt;/li&gt;&lt;li&gt;Understanding
+                of SDLC methodologies&lt;/li&gt;&lt;li&gt;Knowledge in Kubernetes, Unix&lt;/li&gt;&lt;li&gt;Experience
+                with Git&lt;/li&gt;&lt;li&gt;Experience with Maven/Gradle&lt;/li&gt;&lt;li&gt;NoSQL databases (e.g.,
+                Redis, Aerospike)&lt;/li&gt;&lt;li&gt;English — upper-intermediate&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Nice
+                to have:&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Experience with MySQL&lt;/li&gt;&lt;li&gt;Experience with
+                deploying applications with multiple service layers and multiple consuming services&lt;/li&gt;&lt;li&gt;Agile
+                Team Leading Experience&lt;/li&gt;&lt;/ul&gt;
+
+                &lt;br&gt; &lt;h3&gt;We offer all our employees:&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Competitive salary,
+                performance-based bonuses and flexible working hours&lt;/li&gt;&lt;li&gt;Social package, including
+                sports and enrichment classes compensation, medical insurance with dental coverage&lt;/li&gt;&lt;li&gt;Own
+                educational platform with courses, training programs, certifications&lt;/li&gt;&lt;li&gt;Annual salary
+                review&lt;/li&gt;&lt;li&gt;20 working days paid vacation and sick leave&lt;/li&gt;&lt;li&gt;Corporate
+                celebrations, team buildings and fun activities&lt;/li&gt;&lt;li&gt;Free meals twice a day, refreshments&lt;/li&gt;&lt;li&gt;Technical
+                library with option to order books&lt;/li&gt;&lt;li&gt;Coaching and reviews to support your career
+                development&lt;/li&gt;&lt;li&gt;Internal mobility program&lt;/li&gt;&lt;li&gt;Help and support for
+                candidates from other cities&lt;/li&gt;&lt;li&gt;Working for one of the top social gaming companies
+                in the world&lt;/li&gt;&lt;li&gt;Find us on &lt;a href="https://www.facebook.com/Playtika"
+                target="_blank"&gt;Facebook&lt;/a&gt;, &lt;a href="https://www.linkedin.com/company/playtika/"
+                target="_blank"&gt;LinkedIn&lt;/a&gt;, &lt;a href="https://www.instagram.com/playtika/" target="_blank"&gt;Instagram&lt;/a&gt;,
+                and &lt;a href="https://twitter.com/playtika_ltd" target="_blank"&gt;Twitter&lt;/a&gt; to learn more&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;br&gt;&lt;blockquote&gt;&lt;b&gt;Playtika&lt;/b&gt;
+                is a leader of innovation and excellence in interactive entertainment. From humble beginnings
+                as a startup in 2010, and with cheetah-like instincts, we’ve grown to become an industry leader with
+                more than 9 million daily and 31 million monthly active users across our portfolio of games. &lt;br&gt;&lt;p&gt;&lt;br&gt;&lt;b&gt;At Playtika&lt;/b&gt;,
+                we are on a mission to continue creating infinite ways to play. We remain committed to pushing the
+                boundaries of what’s possible. We leverage our talent and the latest technology to create even more
+                immersive and engaging experiences for our players, delighting them with our award-winning and
+                category-leading games. &lt;br&gt;&lt;/p&gt; &lt;p&gt;&lt;br&gt;&lt;b&gt;We offer&lt;/b&gt; a space
+                where people from all walks of life can come together, share their experiences, and build lasting
+                connections. Playtika has more than 3,500 employees worldwide, headquartered in Herzliya, Israel with
+                sites in: Ramat Gan, Berlin, Vienna, Helsinki, Chicago, Las Vegas, Newport Beach, Sydney, Bucharest,
+                Warsaw, Kyiv, Minsk, Dnipro and Vinnytsia. &lt;br&gt;&lt;/p&gt; &lt;p&gt;&lt;br&gt;We are an equal
+                opportunity employer and value diversity at our company. We do not discriminate on the basis of race,
+                religion, color, national origin, gender, sexual orientation, age, marital status, veteran status,
+                or disability status. &lt;br&gt;&lt;/p&gt; &lt;p&gt;&lt;br&gt;&lt;b&gt;Ready to bring infinite ways
+                to play into people’s lives? We want you, come join us! &lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;/blockquote&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/playtika-ua/vacancies/267563/#reply-btn-id"&gt;Відгукнутись на
+                вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Mon, 17 Jun 2024 10:16:20 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/playtika-ua/vacancies/267563/?1718608580</guid>
+        </item>
+        <item>
+            <title>Senior Java Engineer (with JavaServer Faces) (#1599) в N-iX, Київ, Львів, Дніпро, Вінниця,
+                Івано-Франківськ, Тернопіль, Бухарест (Румунія), Краків (Польща), Софія (Болгарія), Вроцлав (Польща),
+                віддалено
+            </title>
+            <link>https://jobs.dou.ua/companies/n-ix/vacancies/258397/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;We are looking for talented Senior Java Engineer&lt;strong&gt; &lt;/strong&gt;to join
+                our N-iX Team. &lt;/p&gt;&lt;p&gt;The primary aim of this project is to undertake a comprehensive
+                overhaul of the user interface (UI) while preserving the core business logic of the application. This
+                UI refresh will not only modernize the visual appearance but also enhance user experience and usability.
+                By implementing contemporary design principles and intuitive navigation, we intend to create a more
+                engaging and attractive interface for users. &lt;/p&gt;&lt;p&gt;Our Client, founded in 1999, aimed
+                to simplify advertising transactions, evolving into the premier digital and linear media management
+                platform globally. By prioritizing client satisfaction, they grew to lead in premium broadcast
+                technology and premium advertising processing. &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Main Responsibilities:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Design,
+                build, and maintain efficient, reusable, and reliable code&lt;/li&gt;&lt;li&gt;Suggest technical and
+                functional improvements to add value to the product&lt;/li&gt;&lt;li&gt;Refresh UI components
+                of client’s core application &lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Role Requirements:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;At least
+                &lt;nobr&gt;4-5&lt;/nobr&gt; years of proficiency in Java technologies&lt;/li&gt;&lt;li&gt;In-depth
+                knowledge and hands-on experience in JavaServer Faces (JSF)&lt;/li&gt;&lt;li&gt;Willingness to work with
+                JSF &lt;/li&gt;&lt;li&gt;Solid understanding of web development technologies: HTML, CSS, JavaScript, and
+                AJAX&lt;/li&gt;&lt;li&gt;Experience in server-side development, working with application servers like
+                Apache Tomcat or WildFly&lt;/li&gt;&lt;li&gt;Familiarity with integrating backend systems with databases
+                using JDBC, JPA, or Hibernate&lt;/li&gt;&lt;li&gt;Very good spoken and written knowledge of English
+                language (B2+)&lt;/li&gt;&lt;li&gt;BSc or MSc in Computer Science, Engineering or relevant field&lt;/li&gt;&lt;/ul&gt;
+                &lt;div class="content-conclusion"&gt;&lt;p&gt;&lt;strong&gt;We offer:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Flexible
+                working format — remote, office-based or flexible&lt;/li&gt;&lt;li&gt;A competitive salary and good
+                compensation package&lt;/li&gt;&lt;li&gt;Personalized career growth&lt;/li&gt;&lt;li&gt;Professional
+                development tools (mentorship program, tech talks and trainings, centers of excellence, and more)&lt;/li&gt;&lt;li&gt;Active
+                tech communities with regular knowledge sharing&lt;/li&gt;&lt;li&gt;Education reimbursement&lt;/li&gt;&lt;li&gt;Memorable
+                anniversary presents&lt;/li&gt;&lt;li&gt;Corporate events and team buildings&lt;/li&gt;&lt;li&gt;Other
+                location-specific benefits&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/n-ix/vacancies/258397/#reply-btn-id"&gt;Відгукнутись на
+                вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Mon, 17 Jun 2024 10:16:18 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/n-ix/vacancies/258397/?1718608578</guid>
+        </item>
+        <item>
+            <title>Senior Full Stack Engineer (#1563) в N-iX, Київ, Львів, Дніпро, Вінниця, Івано-Франківськ, Тернопіль,
+                віддалено
+            </title>
+            <link>https://jobs.dou.ua/companies/n-ix/vacancies/261520/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;We are looking for a skillful &lt;strong&gt;Senior Full Stack Engineer&lt;/strong&gt;
+                to join our team.&lt;br&gt;&lt;br&gt;&lt;strong&gt;About the project:&lt;br&gt;&lt;/strong&gt;Our
+                customer is the leading school transportation provider in North America, being the owner of more than
+                a half of all yellow school buses in the United States. Every day, the company completes 5 million
+                student journeys, moving more passengers than all U.S. airlines combined and delivers reliable, quality
+                services for 1,100 school districts. &lt;br&gt;N-iX has built a successful cooperation with the client
+                delivering a range of complex initiatives. As a result, N-iX has been selected as a strategic long-term
+                partner to drive the digital transformation on an enterprise level, fully remodeling the technology
+                landscape for 55,000 employees and millions of people across North America. &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Write
+                quality, maintainable code with extensive test coverage in a fast-paced professional software
+                engineering environment&lt;/li&gt;&lt;li&gt;Promote best practices to improve the quality of our code
+                and processes&lt;/li&gt;&lt;li&gt;Research and evaluate technical options to implement business
+                requirements&lt;/li&gt;&lt;li&gt;Provide system or technical development expertise to the team&lt;/li&gt;&lt;li&gt;Work
+                in close contact with team members and project stakeholders&lt;/li&gt;&lt;li&gt;Suggest technical and
+                functional improvements to add value to the product and tackle technical debt&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;4+ years
+                of software development experience&lt;/li&gt;&lt;li&gt;3+ years of extensive Java development&lt;/li&gt;&lt;li&gt;2+ years
+                of experience with React.js frontend development&lt;/li&gt;&lt;li&gt;Understanding and experience
+                developing and deploying microservices&lt;/li&gt;&lt;li&gt;Experience with Kafka messaging&lt;/li&gt;&lt;li&gt;Experience
+                with REST paradigm and respective description standards/tools (OpenAPI, Swagger etc)&lt;/li&gt;&lt;li&gt;Excellent
+                design, coding, and debugging skills&lt;/li&gt;&lt;li&gt;OOP, OOD, Design Patterns proficient&lt;/li&gt;&lt;li&gt;Experience
+                with relational databases (preferably PostgreSQL)&lt;/li&gt;&lt;li&gt;Knowledge of NoSQL databases&lt;/li&gt;&lt;li&gt;Experience
+                with AWS services (ECS, EKS, MSK, Aurora)&lt;/li&gt;&lt;li&gt;Excellent communication and organization
+                skills, product-oriented mindset, focus on team results, willingness to constant personal and team
+                improvements&lt;/li&gt;&lt;li&gt;Upper-Intermediate English level&lt;/li&gt;&lt;/ul&gt; &lt;div
+                class="content-conclusion"&gt;&lt;p&gt;&lt;strong&gt;We offer:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Flexible
+                working format — remote, office-based or flexible&lt;/li&gt;&lt;li&gt;A competitive salary and good
+                compensation package&lt;/li&gt;&lt;li&gt;Personalized career growth&lt;/li&gt;&lt;li&gt;Professional
+                development tools (mentorship program, tech talks and trainings, centers of excellence, and more)&lt;/li&gt;&lt;li&gt;Active
+                tech communities with regular knowledge sharing&lt;/li&gt;&lt;li&gt;Education reimbursement&lt;/li&gt;&lt;li&gt;Memorable
+                anniversary presents&lt;/li&gt;&lt;li&gt;Corporate events and team buildings&lt;/li&gt;&lt;li&gt;Other
+                location-specific benefits&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/n-ix/vacancies/261520/#reply-btn-id"&gt;Відгукнутись на
+                вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Mon, 17 Jun 2024 10:16:00 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/n-ix/vacancies/261520/?1718608560</guid>
+        </item>
+        <item>
+            <title>Senior Java Developer в Ardas, Дніпро, віддалено</title>
+            <link>https://jobs.dou.ua/companies/ardas-group/vacancies/267755/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;&lt;strong&gt;🌟 Unleash Your Potential with eSputnik 🌟&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Embark
+                on an exciting career journey with eSputnik, Ukraine’s premier marketing automation tool, explicitly
+                designed for forward-thinking ecommerce enthusiasts. Since our inception in 2012, we’ve skyrocketed from
+                a budding startup to Ukraine’s unrivaled market leader. But we didn’t stop there!&lt;br&gt;&lt;br&gt;&lt;strong&gt;🚀
+                Be Part of Our Global Journey 🚀&lt;/strong&gt; &lt;br&gt;After dominating the local market, we set our
+                sights on international expansion. Today, we’re making bold strides into the EU market and inviting you
+                to be part of this thrilling venture.&lt;/p&gt;&lt;p&gt;We are looking for a Senior Java Developer who
+                will help us develop our product, participate in making architectural decisions, and implement them.
+                Someone who is not afraid to work with legacy code and is ready to improve it through evolutionary
+                development.&lt;/p&gt;&lt;p&gt;Required experience for the position: &lt;strong&gt;5+ years as a Java
+                developer.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;English level: Intermediate.&lt;/p&gt;&lt;p&gt;Our stack
+                includes: Java &lt;nobr&gt;1.8-22,&lt;/nobr&gt; Spring Boot &lt;nobr&gt;2.0.6-3.2.4,&lt;/nobr&gt; Maven,
+                Redis, Cassandra, Kafka, Microsoft SQL Server, PostgreSQL, Clickhouse.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;In your
+                previous experience, we would like you to have:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;✔️ Participated in the
+                development of high-load, fault-tolerant systems&lt;/p&gt;&lt;p&gt;✔️ Been involved in making
+                architectural decisions in such systems&lt;/p&gt;&lt;p&gt;✔️ Worked with both relational and
+                non-relational databases from our stack&lt;/p&gt;&lt;p&gt;✔️ Written efficient queries and investigated
+                their performance&lt;/p&gt;&lt;p&gt;✔️ Developed integration and JUnit tests&lt;/p&gt;&lt;p&gt;✔️
+                Investigated system performance issues, profiling, and the creation of efficient monitoring systems&lt;/p&gt;&lt;p&gt;✔️
+                Worked with Linux, Docker, and Kubernetes.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Other Benefits:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;⚡️
+                We compensate for educational courses, workshops, and professional literature.&lt;/p&gt;&lt;p&gt;⚡
+                We cover 50% of English language training costs.&lt;/p&gt;&lt;p&gt;⚡️ Work-life balance with a flexible
+                schedule.&lt;/p&gt;&lt;p&gt;⚡️ No unnecessary control.&lt;/p&gt;&lt;p&gt;⚡️ Working remotely
+                or in an office in the center of Dnipro.&lt;/p&gt;&lt;p&gt;⚡️ 18 paid vacation days that do not expire.&lt;/p&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/ardas-group/vacancies/267755/#reply-btn-id"&gt;Відгукнутись на
+                вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Sat, 15 Jun 2024 20:55:05 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/ardas-group/vacancies/267755/?1718474105</guid>
+        </item>
+        <item>
+            <title>Senior Java Engineer в Patrianna Limited, віддалено</title>
+            <link>https://jobs.dou.ua/companies/patrianna/vacancies/270988/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;Dive into the pulse of cutting-edge solutions with Patrianna LTD! 🚀&lt;/p&gt;&lt;p&gt;Are
+                you ready to dive into the dynamic world of social gaming and be part of a rapidly expanding team? We’re
+                on the lookout for a talented &lt;strong&gt;Senior Java Engineer&lt;/strong&gt; to join our &lt;strong&gt;Patrianna
+                LTD&lt;/strong&gt; team on a full-time basis.&lt;/p&gt;&lt;p&gt;🌟 What You Gain?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Dynamic
+                Environment&lt;/strong&gt;: Step into the heart of a super fast-growing social gaming company, where
+                innovation and creativity thrive.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Global Impact&lt;/strong&gt;:
+                Be at the forefront of crafting a global social entertainment platform, with a primary focus
+                on captivating the North American market.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Limitless Growth&lt;/strong&gt;:
+                Take your career to new heights with opportunities for advancement and personal development. Join us
+                in the exhilarating journey of continuous growth.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Massive Reach&lt;/strong&gt;:
+                Contribute to the development of client web and mobile apps that engage with up to 150 million customers
+                worldwide.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Commitment to Excellence&lt;/strong&gt;: We’re dedicated
+                to delivering high-quality code, ensuring predictable behavior in production, seamless scaling, and
+                automation every step of the way.&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;i&gt;Responsibilities :&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Write
+                well-designed, testable and scalable code in a timely manner.&lt;/li&gt;&lt;li&gt;Take part in the full
+                development cycle and ensure smooth development and cooperation between the dev team and product owners
+                from sprint planning to release cycles.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Technologies&lt;/b&gt;&lt;b&gt;&lt;i&gt;:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Java
+                21&lt;/li&gt;&lt;li&gt;Spring 5+&lt;/li&gt;&lt;li&gt;Spring boot 2.5&lt;/li&gt;&lt;li&gt;ELK&lt;/li&gt;&lt;li&gt;Docker&lt;/li&gt;&lt;li&gt;GCP&lt;/li&gt;&lt;li&gt;Resteasy&lt;/li&gt;&lt;li&gt;Ebean-ORM&lt;/li&gt;&lt;li&gt;Postgresql
+                14&lt;/li&gt;&lt;li&gt;Quartz&lt;/li&gt;&lt;li&gt;Websocket + socket.io&lt;/li&gt;&lt;li&gt;Netty&lt;/li&gt;&lt;li&gt;Reactor /
+                rxjava&lt;/li&gt;&lt;li&gt;Micrometer&lt;/li&gt;&lt;li&gt;Flyway&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Requirements:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;4+ years
+                of experience as Java Engineer&lt;/li&gt;&lt;li&gt;Strong knowledge of Java Core (Java 8+)&lt;/li&gt;&lt;li&gt;Strong
+                knowledge of Spring&lt;/li&gt;&lt;li&gt;Experience in multithreading and high-load systems&lt;/li&gt;&lt;li&gt;Good
+                knowledge of SQL&lt;/li&gt;&lt;li&gt;Good experience with Docker (docker swarm) and ecosystem&lt;/li&gt;&lt;li&gt;Troubleshooting
+                skills (metrics/alerts/monitoring/profiling)&lt;/li&gt;&lt;li&gt;Fit to the values and shape the culture
+                within the entire organisation&lt;/li&gt;&lt;li&gt;Good English skills in speaking and writing&lt;/li&gt;&lt;li&gt;Experience
+                with SPA and modern mobile and web technologies&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;&lt;i&gt;Would
+                be a plus:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Experience with GCP&lt;/li&gt;&lt;li&gt;Production
+                experience with Kafka and ecosystem&lt;/li&gt;&lt;li&gt;Experience in ElasticSearch and ecosystem&lt;/li&gt;&lt;li&gt;Experience
+                with Ebean&lt;/li&gt;&lt;li&gt;Experience with Protobuf&lt;/li&gt;&lt;li&gt;Experience with
+                influxdb/grafana&lt;/li&gt;&lt;li&gt;Google Services: auth / firebase / etc / publisher / ads&lt;/li&gt;&lt;li&gt;Experience
+                in integration with payment providers: paypal / stripe / fiserv / adyen&lt;/li&gt;&lt;li&gt;Experience
+                in anti-fraud tools&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Full
+                Remote Work&lt;/strong&gt;: Enjoy the flexibility of working remotely from wherever you feel most
+                productive.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Medical/Sport Compensation:&lt;/strong&gt; Receive private
+                monthly compensation towards medical expenses or sports-related activities to support your health and
+                well-being.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Generous Leave Policy:&lt;/strong&gt; Take advantage
+                of 30 days of paid time off, encompassing both vacation and sick leave, to ensure you can recharge and
+                recover when needed. Take your time on bank holidays as well.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Company
+                Events:&lt;/strong&gt; Engage in our vibrant company culture through a variety of informal events
+                designed to foster camaraderie and teamwork.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Continuously Development:&lt;/strong&gt;
+                Get an opportunity to join a fast-growing business where the sky’s the limit.&lt;/p&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/patrianna/vacancies/270988/#reply-btn-id"&gt;Відгукнутись на
+                вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Fri, 14 Jun 2024 19:25:07 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/patrianna/vacancies/270988/?1718382307</guid>
+        </item>
+        <item>
+            <title>Middle Java Engineer в Patrianna Limited, віддалено</title>
+            <link>https://jobs.dou.ua/companies/patrianna/vacancies/270961/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;Dive into the pulse of cutting-edge solutions with Patrianna LTD! 🚀&lt;/p&gt;&lt;p&gt;Are
+                you ready to dive into the dynamic world of social gaming and be part of a rapidly expanding team? We’re
+                on the lookout for a talented &lt;strong&gt;Middle Java Engineer&lt;/strong&gt; to join our &lt;strong&gt;Patrianna
+                LTD&lt;/strong&gt; team on a full-time basis.&lt;/p&gt;&lt;p&gt;🌟 What You Gain?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Dynamic
+                Environment&lt;/strong&gt;: Step into the heart of a super fast-growing social gaming company, where
+                innovation and creativity thrive.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Global Impact&lt;/strong&gt;:
+                Be at the forefront of crafting a global social entertainment platform, with a primary focus
+                on captivating the North American market.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Limitless Growth&lt;/strong&gt;:
+                Take your career to new heights with opportunities for advancement and personal development. Join us
+                in the exhilarating journey of continuous growth.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Massive Reach&lt;/strong&gt;:
+                Contribute to the development of client web and mobile apps that engage with up to 150 million customers
+                worldwide.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Commitment to Excellence&lt;/strong&gt;: We’re dedicated
+                to delivering high-quality code, ensuring predictable behavior in production, seamless scaling, and
+                automation every step of the way.&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;i&gt;Responsibilities :&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Write
+                well-designed, testable and scalable code in a timely manner.&lt;/li&gt;&lt;li&gt;Take part in the full
+                development cycle and ensure smooth development and cooperation between the dev team and product owners
+                from sprint planning to release cycles.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Technologies&lt;/b&gt;&lt;b&gt;&lt;i&gt;:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Java
+                21&lt;/li&gt;&lt;li&gt;Spring 5+&lt;/li&gt;&lt;li&gt;Spring boot 2.5&lt;/li&gt;&lt;li&gt;ELK&lt;/li&gt;&lt;li&gt;Docker&lt;/li&gt;&lt;li&gt;GCP&lt;/li&gt;&lt;li&gt;Resteasy&lt;/li&gt;&lt;li&gt;Ebean-ORM&lt;/li&gt;&lt;li&gt;Postgresql
+                14&lt;/li&gt;&lt;li&gt;Quartz&lt;/li&gt;&lt;li&gt;Websocket + socket.io&lt;/li&gt;&lt;li&gt;Netty&lt;/li&gt;&lt;li&gt;Reactor /
+                rxjava&lt;/li&gt;&lt;li&gt;Micrometer&lt;/li&gt;&lt;li&gt;Flyway&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Requirements:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;2+ years
+                of experience as Java Engineer&lt;/li&gt;&lt;li&gt;Strong knowledge of Java Core (Java 8+)&lt;/li&gt;&lt;li&gt;Strong
+                knowledge of Spring&lt;/li&gt;&lt;li&gt;Experience in multithreading and high-load systems&lt;/li&gt;&lt;li&gt;Good
+                knowledge of SQL&lt;/li&gt;&lt;li&gt;Good experience with Docker (docker swarm) and ecosystem&lt;/li&gt;&lt;li&gt;Troubleshooting
+                skills (metrics/alerts/monitoring/profiling)&lt;/li&gt;&lt;li&gt;Fit to the values and shape the culture
+                within the entire organisation&lt;/li&gt;&lt;li&gt;Good English skills in speaking and writing&lt;/li&gt;&lt;li&gt;Experience
+                with SPA and modern mobile and web technologies&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;&lt;i&gt;Would
+                be a plus:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Experience with GCP&lt;/li&gt;&lt;li&gt;Production
+                experience with Kafka and ecosystem&lt;/li&gt;&lt;li&gt;Experience in ElasticSearch and ecosystem&lt;/li&gt;&lt;li&gt;Experience
+                with Ebean&lt;/li&gt;&lt;li&gt;Experience with Protobuf&lt;/li&gt;&lt;li&gt;Experience with
+                influxdb/grafana&lt;/li&gt;&lt;li&gt;Google Services: auth / firebase / etc / publisher / ads&lt;/li&gt;&lt;li&gt;Experience
+                in integration with payment providers: paypal / stripe / fiserv / adyen&lt;/li&gt;&lt;li&gt;Experience
+                in anti-fraud tools&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Full
+                Remote Work&lt;/strong&gt;: Enjoy the flexibility of working remotely from wherever you feel most
+                productive.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Medical/Sport Compensation:&lt;/strong&gt; Receive private
+                monthly compensation towards medical expenses or sports-related activities to support your health and
+                well-being.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Generous Leave Policy:&lt;/strong&gt; Take advantage
+                of 30 days of paid time off, encompassing both vacation and sick leave, to ensure you can recharge and
+                recover when needed. Take your time on bank holidays as well.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Company
+                Events:&lt;/strong&gt; Engage in our vibrant company culture through a variety of informal events
+                designed to foster camaraderie and teamwork.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Continuously Development:&lt;/strong&gt;
+                Get an opportunity to join a fast-growing business where the sky’s the limit.&lt;/p&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/patrianna/vacancies/270961/#reply-btn-id"&gt;Відгукнутись на
+                вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Fri, 14 Jun 2024 17:20:51 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/patrianna/vacancies/270961/?1718374851</guid>
+        </item>
+        <item>
+            <title>Middle Java Engineer в ALEPH ONE, Київ, віддалено</title>
+            <link>https://jobs.dou.ua/companies/aleph-one/vacancies/270912/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;Do you want to work with interesting and challenging projects? — Welcome to our Aleph
+                One team!&lt;/p&gt;&lt;p&gt;Flexible working hours, great team, ability to work from anywhere!&lt;/p&gt;&lt;p&gt;You
+                will be part of the RnD team working on the platform at the fusion of Big Data, Web2, SaaS, and Web3
+                blockchain technologies.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;*
+                Close collaboration with Architecture and Product Management teams;&lt;/p&gt;&lt;p&gt;* Design
+                of subsystems and components;&lt;/p&gt;&lt;p&gt;* Adherence to common frameworks, practices, paradigms,
+                and technologies;&lt;/p&gt;&lt;p&gt;* Following company engineering processes and culture;&lt;/p&gt;&lt;p&gt;*
+                Code quality control, including automation and reviews.&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;&lt;strong&gt;What
+                is important for the position:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;* Fluency in Java.&lt;/p&gt;&lt;p&gt;*
+                Experience with technologies like Kubernetes, Kafka, Elasticsearch, and Postgres. &lt;/p&gt;&lt;p&gt;*
+                Experience with Quarkus, Vert.x, and Reactive Asynchronous programming or frameworks is a plus. &lt;/p&gt;&lt;p&gt;*
+                Experience with data streaming (stream processing and batch ETL pipelines). &lt;/p&gt;&lt;p&gt;* Ability
+                to demo/show examples and provide walkthroughs. &lt;/p&gt;&lt;p&gt;* Strong background in algorithms,
+                data structures, optimization, and performance paradigms.&lt;/p&gt;&lt;p&gt;* Understanding of software
+                engineering processes and practices, especially around code quality and reusability. &lt;/p&gt;&lt;p&gt;*
+                Self-sufficiency and an ownership mindset with little external oversight. &lt;/p&gt;&lt;p&gt;* Interest
+                in the blockchain industry is a plus. &lt;/p&gt;&lt;p&gt;* Verbal English proficiency (we are
+                a multinational company). &lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;We suggest working with great people
+                and strong professionals in a funny and trusting working environment.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;And
+                with us you will:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;* Become an important part of interesting,
+                challenging, and fast growing projects (E-commerce, FinTech, blockchain&amp;amp;cryptocurrency, AI);&lt;/p&gt;&lt;p&gt;*
+                Have a real ability to make your impact on the project’s outcome;&lt;/p&gt;&lt;p&gt;* Have
+                no micromanagement, but only effective teamwork;&lt;/p&gt;&lt;p&gt;* Get financial and personal growth;&lt;/p&gt;&lt;p&gt;*
+                Have flexible working hours, 20 working days of paid vacation, paid sick days, temporary leave, etc.&lt;/p&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/aleph-one/vacancies/270912/#reply-btn-id"&gt;Відгукнутись на
+                вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Fri, 14 Jun 2024 14:28:31 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/aleph-one/vacancies/270912/?1718364511</guid>
+        </item>
+        <item>
+            <title>Junior/Middle Java Engineer with AWS в Ralabs, Львів, за кордоном, віддалено</title>
+            <link>https://jobs.dou.ua/companies/ralabs/vacancies/270904/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;We are looking for a skilled Java backend developer who will join a project in the
+                startup ecosystem and will be able to develop personal skills as a developer, offer ideas, and
+                communicate directly with customers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;How many stages of the interview
+                are there?&lt;/strong&gt; &lt;br&gt;Interview with the Recruiter — up to 30 min;&lt;br&gt;Technical
+                interview with client — up to 1 hour;&lt;br&gt;Cultural interview with client — up to 30 min;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;
+                &lt;br&gt;&lt;strong&gt;Skills: &lt;/strong&gt;&lt;/p&gt;&lt;p&gt;— 1,5 years of &lt;strong&gt;commercial
+                experience&lt;/strong&gt; with Java;&lt;br&gt;— Experience with AWS;&lt;br&gt;— Experience with APIs;&lt;br&gt;— &lt;strong&gt;At least
+                an Upper-Intermediate level of English.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;
+                &lt;br&gt;— Developing new features;&lt;br&gt;— Maintain, and enhance backend services using Java;&lt;br&gt;— Implement
+                and optimize APIs to support the marketplace functionalities and new features; &lt;br&gt;— Work closely
+                with the Lead Engineer to understand project requirements, design solutions, and implement features;&lt;br&gt;— Participate
+                in code reviews to maintain code quality and share knowledge with the team;&lt;br&gt;— Adapt to the
+                fast-paced and dynamic environment of a startup.&lt;/p&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/ralabs/vacancies/270904/#reply-btn-id"&gt;Відгукнутись на
+                вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Fri, 14 Jun 2024 13:38:36 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/ralabs/vacancies/270904/?1718361516</guid>
+        </item>
+        <item>
+            <title>Senior FullStack Developer (Java + Angular) в ПУМБ (First Ukrainian International Bank), $4000–4500,
+                Київ, за кордоном, віддалено
+            </title>
+            <link>https://jobs.dou.ua/companies/fuib/vacancies/253518/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;We’re creating a modern and comfortable mobile bank for Ukrainians.&lt;br&gt;Two
+                million people are already our users. Our satisfaction score is over 93%. &lt;br&gt;And that’s just
+                a warm-up. We will deliver even more and faster to delight the users. &lt;br&gt;Our ambitious goal
+                is to lead in both the quality and speed of feature updates.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Our recent
+                updates:&lt;/strong&gt; &lt;br&gt;• Simple and effective application of “єПідтримка” and Armed Forces
+                of Ukraine support features.&lt;br&gt;• Liveness detection during onboarding lets users avoid visiting
+                branches and waiting in the queue.&lt;br&gt;• Interactive live and emotional support chat.&lt;br&gt;•
+                Worldwide known money-transfer systems support.&lt;br&gt;• A huge UX update based on user feedback
+                is halfway to its delivery.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;strong&gt;Why are we hiring?&lt;/strong&gt;
+                &lt;br&gt;Client surveys show we are second in the country regarding stability and speed of updates.
+                &lt;br&gt;But we strive for more! Minding this, we’re looking out for engineers to help us with
+                developing daily banking functionality: transfers, currency exchange, personal financial management,
+                insurance, and frequently asked questions.&lt;/p&gt;&lt;p&gt;&lt;br&gt;Let’s get the ball rolling
+                together!&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;strong&gt;Onboarding plan and goals&lt;/strong&gt; &lt;br&gt;In two
+                weeks, you’ll finish with:&lt;br&gt;• Getting to know your team and mentor, setting up a working
+                environment, and learning the technical guidelines.&lt;br&gt;• Realizing how we work with our goals,
+                tribes, squads, chapters, and how we use Agile.&lt;br&gt;• Fixing something to dive into the project and
+                understand it more with the mentor’s help.&lt;br&gt;In one and a half months:&lt;br&gt;• You’ll create
+                new features for daily banking and release them with a high-quality level.&lt;br&gt;• You’ll finish
+                a couple of tasks and will constantly be learning the project deeper.&lt;br&gt;• You’ll provide and get
+                back feedback on working with us.&lt;br&gt;In three months:&lt;br&gt;• You’ll create an individual
+                development plan in collaboration with your mentor.&lt;br&gt;• You’ll get and provide final feedback
+                on the first period with us.&lt;br&gt;• You’ll be the owner of your code, review contributions from your
+                teammates, consult about your functionality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;What We’re Looking For /
+                Requirements:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;We use it daily and expect you experienced with:&lt;/p&gt;&lt;p&gt;•
+                Agile software development methodologies&lt;br&gt;• OOD’s general practices and approaches&lt;br&gt;•
+                Troubleshooting (logs analysis, debugging)&lt;br&gt;Must stack:&lt;br&gt;• Languages/Specifications:
+                Java 11, REST, JSON, XML&lt;br&gt;• Frameworks: Spring (Boot, MVC, Data)&lt;br&gt;• Tools: Git, Maven,
+                Docker, Jira, Kibana&lt;br&gt;• Angular&lt;br&gt;• Testing: JUnit, Mockito&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Would
+                be a plus:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;• Languages/Specifications: Java 17, OpenAPI, OAuth 2.0&lt;br&gt;•
+                Frameworks: Hibernate&lt;br&gt;• Tools: Confluence, GitLab, Grafana&lt;br&gt;• Databases: Redis,
+                PostgreSQL&lt;br&gt;• Messaging: RabbitMQ&lt;br&gt;• Testing: JMeter&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Why
+                ПУМБ?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;• 100% remote work&lt;br&gt;• Friendly team of experienced
+                developers&lt;br&gt;• The ability to switch projects, try yourself in different roles&lt;br&gt;•
+                Conferences and trainings&lt;br&gt;• Flexible schedule and the ability to work remotely&lt;br&gt;•
+                Completely “white salary”&lt;br&gt;• Medical insurance class Luxe&lt;/p&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/fuib/vacancies/253518/#reply-btn-id"&gt;Відгукнутись на
+                вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Fri, 14 Jun 2024 11:50:41 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/fuib/vacancies/253518/?1718355041</guid>
+        </item>
+        <item>
+            <title>BackEnd developer в OLEARIS, віддалено</title>
+            <link>https://jobs.dou.ua/companies/olearis/vacancies/270850/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;Olearis is seeking a highly skilled Backend Developer to join our team. Our candidate
+                will have strong experience in Java/Kotlin and Spring Boot, along with a solid understanding of OLAP,
+                OLTP, REST, GraphQL and AWS.&lt;/p&gt;&lt;h3&gt;Requirements:&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Java/Kotlin:&lt;/strong&gt;
+                Proficiency in Java and Kotlin with a strong understanding of the ecosystem.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Spring
+                Boot:&lt;/strong&gt; Extensive experience with Spring Boot framework.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;OLAP
+                &amp;amp; OLTP:&lt;/strong&gt; Knowledge of Online Analytical Processing (OLAP) and Online Transaction
+                Processing (OLTP).&lt;/li&gt;&lt;li&gt;&lt;strong&gt;REST &amp;amp; GraphQL:&lt;/strong&gt; Experience
+                in designing and developing RESTful and GraphQL APIs.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;AWS:&lt;/strong&gt;
+                Hands-on experience with AWS services.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Terraform:&lt;/strong&gt;
+                Ability to automate infrastructure with Terraform.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;English:&lt;/strong&gt;
+                Proficiency in English at B2 level.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Experience:&lt;/strong&gt; Minimum
+                of 4 years of professional experience in backend development.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Responsibilities:&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Design,
+                develop, and maintain backend services using Java/Kotlin and Spring Boot.&lt;/li&gt;&lt;li&gt;Implement
+                and manage data processing solutions using OLAP and OLTP.&lt;/li&gt;&lt;li&gt;Develop and maintain
+                RESTful and GraphQL APIs.&lt;/li&gt;&lt;li&gt;Deploy and manage applications on AWS.&lt;/li&gt;&lt;li&gt;Automate
+                infrastructure provisioning using Terraform.&lt;/li&gt;&lt;li&gt;Collaborate with cross-functional teams
+                to define, design, and ship new features.&lt;/li&gt;&lt;li&gt;Ensure the performance, quality, and
+                responsiveness of applications.&lt;/li&gt;&lt;li&gt;Identify and correct bottlenecks and fix bugs.&lt;/li&gt;&lt;li&gt;Maintain
+                code quality, organization, and automation.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Nice to Have:&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt;
+                Experience with Python programming.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Services and social
+                benefits:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Paid absence days: 15 working days per year (1,25
+                per each month)&lt;/li&gt;&lt;li&gt;Trial period: 3 months, can be ended earlier by company’s initiative&lt;/li&gt;&lt;li&gt;Sick
+                days: is compensated by company (not more than 5 days during trial period)&lt;/li&gt;&lt;li&gt;National
+                holidays in Ukraine are company day-offs&lt;/li&gt;&lt;li&gt;Skillup budget — $100 yearly: books,
+                webinars, conferences, courses (available after trial period and expires yearly on the 31st of December)&lt;/li&gt;&lt;/ul&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/olearis/vacancies/270850/#reply-btn-id"&gt;Відгукнутись на
+                вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Thu, 13 Jun 2024 23:02:59 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/olearis/vacancies/270850/?1718308979</guid>
+        </item>
+        <item>
+            <title>Senior Java Developer в Teamvoy, Львів, віддалено</title>
+            <link>https://jobs.dou.ua/companies/teamvoy/vacancies/270847/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;We are looking for a &lt;strong&gt;Senior Java Developer &lt;/strong&gt;to join &lt;strong&gt;Teamvoy
+                &lt;/strong&gt;and work on our project in the banking services industry.&lt;br&gt;&lt;br&gt;&lt;b&gt;About
+                the project:&lt;br&gt;&lt;/b&gt;We are building an Internet Banking Platform and Mobile App that will
+                be available for different banks as a white-label solution. There is a high-level vision and set of user
+                stories that is covering the product. Teamvoy is fully responsible for the end-to-end solution and will
+                build it from the scratch.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt; &lt;br&gt;•
+                5+ years of commercial software development experience;&lt;br&gt;• Bachelor’s degree in Computer Science
+                (or other related degree);&lt;br&gt;• English level B1+;&lt;br&gt;• Experience with Spring (Spring
+                Boot/Spring MVC), Spring Data, Hibernate;&lt;br&gt;• Strong knowledge of designing and implementing REST
+                web services;&lt;br&gt;• Experience with OOP/OOD, design patterns, and architectural patterns;&lt;br&gt;•
+                Experience with SQL and PostgreSQL;&lt;br&gt;• Understanding of database design principles;&lt;br&gt;•
+                Experience with Docker/Kubernetes;&lt;br&gt;• Experience in writing unit and integration tests.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;
+                &lt;br&gt;• Design and develop APIs;&lt;br&gt;• Integration with third parties (payment service
+                providers, messaging platforms, analytics or security services, etc.);&lt;br&gt;• Writing reusable,
+                testable, and efficient code;&lt;br&gt;• Direct communication and collaboration with clients;&lt;br&gt;•
+                Writing unit and integration tests;&lt;br&gt;• Developing new functionality;&lt;br&gt;• Working with
+                business requirements;&lt;br&gt;• Designing and developing new services/modules;&lt;br&gt;• Database
+                design;&lt;br&gt;• Code review;&lt;br&gt;• Demo presentations;&lt;br&gt;• Responsible for releases;&lt;br&gt;•
+                System scalability.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Nice to have:&lt;/strong&gt; &lt;br&gt;• Experience
+                with projects in the banking sector;&lt;br&gt;• Experience with microservices;&lt;br&gt;• Experience
+                with RabbitMQ;&lt;br&gt;• Experience with Elasticsearch;&lt;br&gt;• Understanding of modular testing
+                as part of the software development cycle and tracking controlled development within a team.&lt;br&gt;&lt;br&gt;&lt;strong&gt;What
+                We Offer:&lt;/strong&gt; &lt;br&gt;• You can choose: work from home or in a comfortable office in the
+                city center of Lviv (the office have a generator and Starlink);&lt;br&gt;• Great company atmosphere and
+                comfortable communications;&lt;br&gt;• Development support;&lt;br&gt;• 20 working days of vacation and
+                20 sick days;&lt;br&gt;• Free English language courses.&lt;/p&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/teamvoy/vacancies/270847/#reply-btn-id"&gt;Відгукнутись на
+                вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Thu, 13 Jun 2024 20:21:33 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/teamvoy/vacancies/270847/?1718299293</guid>
+        </item>
+        <item>
+            <title>Backend Developer, Sr (Java) (3 months with extension) в Sphere Partners, віддалено</title>
+            <link>https://jobs.dou.ua/companies/sphere-consulting/vacancies/270836/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;Sphere partners with clients to transform their organizations by embedding technology
+                and processes into every facet of their operations, creating lasting competitive advantages.
+                By combining global expertise with local insights, we help individuals and companies achieve their
+                ambitious goals. Our current client, a prominent fintech company, manages financial services trade
+                associations in two countries and provides financing in four, meticulously navigating various lending
+                laws to ensure compliance with all regulations. Sphere is aiding this multinational company in its
+                innovation efforts and the launch of new platforms, and we are currently seeking a skilled&lt;strong&gt;
+                Senior Java Developer &lt;/strong&gt;to join the team.&lt;br&gt; &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Position
+                Details:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Type:&lt;/strong&gt; Full-time remote&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt;
+                Remote&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Start Date:&lt;/strong&gt; ASAP&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Term:&lt;/strong&gt;
+                3 months with a possible extension&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Plan
+                and develop the back-end of the application&lt;/li&gt;&lt;li&gt;Contribute to all phases of the
+                development lifecycle&lt;/li&gt;&lt;li&gt;Write well-designed, testable, and efficient code&lt;/li&gt;&lt;li&gt;Prepare
+                and produce releases of software components&lt;/li&gt;&lt;li&gt;Participate in code reviews&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;5+ years
+                of experience with Java&lt;/li&gt;&lt;li&gt;Experience with Spring&lt;/li&gt;&lt;li&gt;Experience with
+                SQL/NoSQL databases&lt;/li&gt;&lt;li&gt;Experience with microservices architecture and AWS (preferred)&lt;/li&gt;&lt;li&gt;Experience
+                with Docker/Kubernetes (preferred)&lt;/li&gt;&lt;/ul&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/sphere-consulting/vacancies/270836/#reply-btn-id"&gt;Відгукнутись
+                на вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Thu, 13 Jun 2024 18:29:33 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/sphere-consulting/vacancies/270836/?1718292573</guid>
+        </item>
+        <item>
+            <title>Senior Java Developer в Phoenix365, $5000–6000, віддалено</title>
+            <link>https://jobs.dou.ua/companies/phoenix365/vacancies/264775/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;We are start-up Phoenix365 Company (Gambling and Betting industry) and we are looking
+                for a creative and communicative Senior Java Developer.&lt;/p&gt;&lt;p&gt;RESPONSIBILITIES&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Development
+                of new services from scratch&lt;/li&gt;&lt;li&gt;Taking an active part in making architectural and
+                technical decisions&lt;/li&gt;&lt;li&gt;Resolve technical problems, critical thinking on the development
+                approach&lt;/li&gt;&lt;li&gt;Be part of a cross-functional team with end-to-end responsibility for the
+                result&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;REQUIREMENTS&lt;/p&gt;&lt;ul&gt;&lt;li&gt;5+ years of commercial
+                development experience using Java-related technologies&lt;/li&gt;&lt;li&gt;2+ years of hands-on
+                experience with microservice architecture&lt;/li&gt;&lt;li&gt;Deep understanding of microservice
+                architectural patterns&lt;/li&gt;&lt;li&gt;Hands-on experience with both SQL and NoSQL DBs&lt;/li&gt;&lt;li&gt;Hands-on
+                experience with messaging systems (Kafka will be a plus)&lt;/li&gt;&lt;li&gt;Proactive and
+                result-oriented mindset&lt;/li&gt;&lt;li&gt;Strong problem-solving skills&lt;/li&gt;&lt;li&gt;Hands-on
+                gRPC experience will be a plus.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;TECHNOLOGY STACK&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microservice
+                architecture&lt;/li&gt;&lt;li&gt;Java 21&lt;/li&gt;&lt;li&gt;Spring Boot 3.2+&lt;/li&gt;&lt;li&gt;gRPC&lt;/li&gt;&lt;li&gt;Kafka&lt;/li&gt;&lt;li&gt;PostgreSQL&lt;/li&gt;&lt;li&gt;DynamoDB&lt;/li&gt;&lt;li&gt;AWS&lt;/li&gt;&lt;li&gt;Kubernetes&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Remotely,
+                5/2&lt;/p&gt;&lt;p&gt;10:00 — 19:00 (Kyiv GMT +3)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Please, send your CV
+                with your salary expectations.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Join to the team
+                of professionals to create new unique product and to build new history.&lt;/strong&gt;&lt;/p&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/phoenix365/vacancies/264775/#reply-btn-id"&gt;Відгукнутись на
+                вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Thu, 13 Jun 2024 18:11:56 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/phoenix365/vacancies/264775/?1718291516</guid>
+        </item>
+        <item>
+            <title>Senior Java Developer в Raiffeisen Bank, Київ, віддалено</title>
+            <link>https://jobs.dou.ua/companies/raiffeisen/vacancies/263782/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;We are Raiffeisen Bank Ukraine, the Ukrainian bank. For 30 years we have been creating
+                and building the banking system of our country. We were and are one of the largest banks in Ukraine and
+                a reliable partner for millions of Ukrainians.&lt;/p&gt;&lt;p&gt;We achieve high-speed digital products.
+                We implement modern engineering practices, work on innovations that build high-quality interaction with
+                our customers.&lt;/p&gt;&lt;p&gt;Raiffeisen Bank operates as a universal bank offering a wide range
+                of financial services to different customer segments: retail and corporate customers, small and
+                medium-sized enterprises and financial institutions.&lt;/p&gt;&lt;p&gt;Our priority is to provide the
+                best quality of service. We strive to strengthen our competitive advantages by innovating, identifying
+                and exploiting new opportunities. We are guided by values that provide a clear framework for our
+                actions. More than 5,000 employees and nearly 3 million customers are the focus. #RaifTeam integrates
+                the principles of diversity, equality and inclusion into the way we work. Combining the principles
+                of people-centredness and innovation at work is our way.&lt;/p&gt;&lt;p&gt;Become part of the
+                #RaifTeam — people who are with us in the movement of innovation.&lt;/p&gt;&lt;p&gt;You will join Bond
+                Project — Automation of government bond purchase processes for legal entities&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Your
+                responsibilities:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Technical requirements analysis&lt;/li&gt;&lt;li&gt;Design
+                and building solutions according to technical requirements&lt;/li&gt;&lt;li&gt;Code reviewing&lt;/li&gt;&lt;li&gt;Unit
+                testing&lt;/li&gt;&lt;li&gt;Take part in project-related meetings&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Preferred
+                qualifications:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;5+years of experience with Java&lt;/li&gt;&lt;li&gt;Experience
+                with: Spring Boot, Kubernetes, Kafka, Docker,PostgreSQL&lt;/li&gt;&lt;li&gt;Knowledge of different
+                communication protocols ( REST)&lt;/li&gt;&lt;li&gt;Be familiar with “Twelve-Factor App&lt;strong&gt;”&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;We offer:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;International
+                business career:&lt;/strong&gt; work in a large international company that creates a diverse and
+                inclusive environment for professional and personal growth. Strong Raiffeisen community of highly
+                professional and successful teams from different countries&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Challenging
+                WOW-projects:&lt;/strong&gt; involvement into large-scale projects on product development, using modern
+                engineering technologies, unique approach to encouraging customer-driven innovation&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Comfortable
+                and safe format of work: &lt;/strong&gt;flexible work conditions including remote work or hybrid models
+                alternating between in-office hours and remote work. Offices with uninterruptible power supply and bomb
+                shelters are provided to perform duties&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Professional development:&lt;/strong&gt;
+                knowledge sharing with colleagues from abroad, development within the company, upskilling and reskilling
+                opportunities, internal competitions. The possibility of obtaining a T-shaped expertise. Internal and
+                external training programs. Corporate English courses. Soft skills trainings at our corporate L&amp;amp;D academy.
+                Team building activities and involvement into social projects&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Attractive
+                social package and wellbeing: &lt;/strong&gt;28 days of paid vacation, medical insurance, official
+                employment. Mental and Physical health support: individual psychological sessions and lectures, -free
+                online workouts, yoga&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Stable income: &lt;/strong&gt;competitive salary
+                and bonuses for your efforts and contribution, rewards for participation in the referral program&lt;/p&gt;&lt;p&gt;Our
+                team on social media:&lt;/p&gt;&lt;p&gt;&lt;a href="http://www.facebook.com/raiffeisencareer"
+                target="_blank"&gt;Facebook&lt;/a&gt;&lt;/p&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/raiffeisen/vacancies/263782/#reply-btn-id"&gt;Відгукнутись на
+                вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Thu, 13 Jun 2024 16:21:55 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/raiffeisen/vacancies/263782/?1718284915</guid>
+        </item>
+        <item>
+            <title>Strong Junior/Middle Java Engineer в Sombra, Київ, Львів, Івано-Франківськ, за кордоном, віддалено
+            </title>
+            <link>https://jobs.dou.ua/companies/sombra/vacancies/270814/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;We are looking for a skilled backend (Java) engineer who will join a project full
+                of trials and will be able to develop their skills as developers, offer their ideas, and communicate
+                directly with customers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Requirements: &lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;nobr&gt;2-3&lt;/nobr&gt;
+                years of commercial experience with Java/Kotlin&lt;/li&gt;&lt;li&gt;Experience with Spring (Boot, Data
+                JPA, Security).&lt;/li&gt;&lt;li&gt;Experience or knowledge of TCP/IP and networking.&lt;/li&gt;&lt;li&gt;At least
+                Upper-intermediate English level.&lt;br&gt;&lt;br&gt;Nice to have:&lt;/li&gt;&lt;li&gt;Experience/knowledge
+                of Amazon Web Services.&lt;/li&gt;&lt;li&gt;Understanding of Python, Bash та Radius, Vue.js.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Responsibilities:
+                &lt;/strong&gt;&lt;/p&gt;&lt;p&gt;You will be responsible for all things from programming, Continuous
+                Improvement, Continuous Delivery platform and coding framework that underpins our core products. This
+                role will be supporting the CIO and rest of the technology team in building the platform/ framework/
+                DevOps culture.&lt;/p&gt;&lt;p&gt;Daily responsibilities: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;Integration
+                of user-facing elements developed by front-end developers with server-side logic, building reusable code
+                and libraries for future use.&lt;/li&gt;&lt;li&gt;Contribute to a stable, scalable and performant code
+                base to provide our users with a great experience.&lt;/li&gt;&lt;li&gt;Analyze the performance of the
+                code and optimize it.&lt;/li&gt;&lt;li&gt;Being part of our development road map team, developing new
+                modules for our software.&lt;/li&gt;&lt;li&gt;Being creative and coming up with new ways to enhance our
+                products using the latest technologies.&lt;/li&gt;&lt;li&gt;Work closely with seniors and the leadership
+                team to architect solutions, evaluate existing and emerging technology choices, and steer the overall
+                technical direction.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;We offer:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Annual
+                paid vacation of 18 working days.&lt;/li&gt;&lt;li&gt;Extra vacation days for long-lasting cooperation.&lt;/li&gt;&lt;li&gt;Annual
+                paid illness of 10 days.&lt;/li&gt;&lt;li&gt;Maternity/Paternity leave.&lt;/li&gt;&lt;li&gt;The
+                opportunity for sabbatical leave.&lt;/li&gt;&lt;li&gt;Marriage and Parenthood Package.&lt;/li&gt;&lt;li&gt;Compensation
+                for sports activities (up to 6000 UAH\year).&lt;/li&gt;&lt;li&gt;50 % cost compensation for attending
+                courses for self-development.&lt;/li&gt;&lt;li&gt;Corporate doctor.&lt;/li&gt;&lt;li&gt;Internal
+                education(corporate library, Udemy courses).&lt;/li&gt;&lt;li&gt;Career development plan.&lt;/li&gt;&lt;li&gt;English
+                and Spanish classes.&lt;/li&gt;&lt;li&gt;Paying taxes and managing PE (Private Entrepreneur).&lt;/li&gt;&lt;li&gt;Technical
+                equipment.&lt;/li&gt;&lt;li&gt;Internal Referral program.&lt;/li&gt;&lt;li&gt;Opportunity to take part
+                in company volunteering activities.&lt;/li&gt;&lt;li&gt;Technical community events.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you
+                believe you are a suitable candidate for this position, please attach your updated resume using the
+                provided link.&lt;br&gt;Our recruitment team will review your profile, and if it aligns with our current
+                job openings, we will contact you shortly. If you don’t receive a reply from us within 5 business days,
+                it means we have decided to move forward with other candidates.&lt;br&gt;Thank you for understanding.&lt;/p&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/sombra/vacancies/270814/#reply-btn-id"&gt;Відгукнутись на
+                вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Thu, 13 Jun 2024 15:55:34 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/sombra/vacancies/270814/?1718283334</guid>
+        </item>
+        <item>
+            <title>Senior Java Backend Developer в GVALT HR AGENCY, $4000–6000, Львів</title>
+            <link>https://jobs.dou.ua/companies/gvalt-hr-agency/vacancies/270790/?utm_source=jobsrss</link>
+            <description>&lt;p&gt;Ми створюємо, обслуговуємо та постійно вдосконалюємо програмні продукти, зручність
+                яких вже оцінили багато приватних та бізнес-клієнтів. Ми розширюємо нашу команду, тому наразі
+                ми у пошуку &lt;strong&gt;Backend Java&lt;/strong&gt; розробник Middle+, Senior.&lt;/p&gt;&lt;p&gt;&lt;b&gt;КЛЮЧОВІ
+                ЗАДАЧІ:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Розробка та вдосконалення програмних продуктів
+                на backendi, створення веб платформ, додатків;&lt;/li&gt;&lt;li&gt;Підтримка та розвиток існуючих
+                рішень;&lt;/li&gt;&lt;li&gt;Розробка користувацьких інтерфейсів;&lt;/li&gt;&lt;li&gt;Розробка API для
+                інтеграції з компонентами рішень;&lt;/li&gt;&lt;li&gt;Написання добре структурованого, документованого
+                коду, об’єднання змін та підготовка його для постійної інтеграції та розгортання;&lt;/li&gt;&lt;li&gt;Ефективна
+                комунікація з іншими членами команди та зацікавленими сторонами;&lt;/li&gt;&lt;li&gt;Участь
+                у проектуванні рішень, архітектури та компонентів системи.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;ТИ НАШ
+                КАНДИДАТ, ЯКЩО ТИ МАЄШ:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Мінімум 3 роки професійного досвіду
+                в Java- розробці.&lt;/li&gt;&lt;li&gt;Досвід роботи з фреймворком Spring.&lt;/li&gt;&lt;li&gt;Знання
+                SQL, PostgreSQL; &lt;/li&gt;&lt;li&gt;Робота з системами контролю версій&lt;/li&gt;&lt;li&gt;Сильні
+                аналітичні навички та навички вирішення проблем.&lt;/li&gt;&lt;li&gt;Відмінні навички спілкування
+                та роботи в команді.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;МИ ГАРАНТУЄМО:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Конкурентну
+                заробітна плату;&lt;/li&gt;&lt;li&gt;Дружнє та динамічне робоче середовище;&lt;/li&gt;&lt;li&gt;Можливості
+                кар’єрного росту в успішній та інноваційній IT-компанії;&lt;/li&gt;&lt;li&gt;Офіційне працевлаштування
+                згідно Законодавства України;&lt;/li&gt;&lt;li&gt;Роботу в офісі на результат, а не на процес
+                з трекінгом часом;&lt;/li&gt;&lt;li&gt;Корпоративне навчання та безкоштовні курси;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Якщо
+                тебе цікавить кар’єрний розвиток у нашій компанії, ми з радістю розглянемо твоє резюме. Чекаємо саме
+                на тебе!&lt;/p&gt;
+
+
+                &lt;div&gt;
+                &lt;a href="https://jobs.dou.ua/companies/gvalt-hr-agency/vacancies/270790/#reply-btn-id"&gt;Відгукнутись
+                на вакансію&lt;/a&gt;
+                &lt;/div&gt;
+            </description>
+            <pubDate>Thu, 13 Jun 2024 14:45:48 +0300</pubDate>
+            <guid>https://jobs.dou.ua/companies/gvalt-hr-agency/vacancies/270790/?1718279148</guid>
+        </item>
+    </channel>
+</rss>
