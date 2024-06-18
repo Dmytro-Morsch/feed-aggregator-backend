@@ -26,13 +26,21 @@ public class ItemRepository {
         return entityManager.find(Item.class, id);
     }
 
-    public List<Item> findAll() {
-        Query query = entityManager.createQuery("from Item");
+    public List<Item> findAll(boolean isDescOrder) {
+        StringBuilder sqlQuery = new StringBuilder("from Item order by pubDate");
+        if (isDescOrder) {
+            sqlQuery.append(" desc");
+        }
+        Query query = entityManager.createQuery(sqlQuery.toString());
         return query.getResultList();
     }
 
-    public List<Item> findByFeedId(Long feedId) {
-        Query query = entityManager.createQuery("from Item where feedId = :feedId");
+    public List<Item> findByFeedId(Long feedId, boolean isDescOrder) {
+        StringBuilder sqlQuery = new StringBuilder("from Item where feedId = :feedId order by pubDate");
+        if (isDescOrder) {
+            sqlQuery.append(" desc");
+        }
+        Query query = entityManager.createQuery(sqlQuery.toString());
         query.setParameter("feedId", feedId);
         return query.getResultList();
     }
