@@ -2,6 +2,8 @@ package feedaggregator.module;
 
 import jakarta.persistence.*;
 
+import java.time.Instant;
+
 @Entity
 public class Item {
     @Id
@@ -10,6 +12,7 @@ public class Item {
     private String title;
     private String description;
     private String link;
+    private Instant pubDate;
     @ManyToOne
     @JoinColumn(name = "feed_id")
     private Feed feed;
@@ -44,6 +47,14 @@ public class Item {
 
     public void setLink(String link) {
         this.link = link;
+    }
+
+    public Instant getPubDate() {
+        return pubDate;
+    }
+
+    public void setPubDate(Instant pubDate) {
+        this.pubDate = pubDate;
     }
 
     public Feed getFeed() {

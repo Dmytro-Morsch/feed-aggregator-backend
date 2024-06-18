@@ -8,6 +8,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.time.Instant;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest
@@ -37,6 +39,7 @@ class ItemRepositoryTest {
         item.setTitle("Test title");
         item.setDescription("Test description");
         item.setLink("Test link");
+        item.setPubDate(Instant.now());
         item.setFeed(feed);
         itemRepository.save(item);
 

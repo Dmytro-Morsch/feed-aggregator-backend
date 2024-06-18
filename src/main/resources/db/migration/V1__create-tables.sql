@@ -10,8 +10,9 @@ create table feed
 create table item
 (
     id          bigint primary key generated always as identity,
-    title       varchar(1000)               not null,
-    link        varchar(1000)               not null,
+    title    varchar(1000) not null,
+    link     varchar(1000) not null,
     description text,
-    feed_id     bigint references feed (id) not null
+    pub_date timestamp     not null,
+    feed_id  bigint        not null references feed (id) on delete cascade
 );

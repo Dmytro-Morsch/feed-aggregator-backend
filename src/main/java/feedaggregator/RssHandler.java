@@ -5,6 +5,9 @@ import feedaggregator.module.Item;
 import org.xml.sax.Attributes;
 import org.xml.sax.helpers.DefaultHandler;
 
+import java.time.Instant;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -42,6 +45,11 @@ public class RssHandler extends DefaultHandler {
                 case "title" -> item.setTitle(text.toString());
                 case "description" -> item.setDescription(text.toString());
                 case "link" -> item.setLink(text.toString());
+                case "pubDate" -> {
+                    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("EEE, dd MMM yyyy HH:mm:ss Z");
+                    Instant instant = ZonedDateTime.parse(text.toString(), formatter).toInstant();
+                    item.setPubDate(instant);
+                }
             }
         }
     }
