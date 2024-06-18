@@ -1,5 +1,6 @@
 package feedaggregator;
 
+import feedaggregator.module.Feed;
 import feedaggregator.module.Item;
 import org.xml.sax.SAXException;
 
@@ -11,12 +12,15 @@ import java.io.InputStream;
 import java.util.List;
 
 public class RssParser {
-    public List<Item> parse(InputStream xml) throws ParserConfigurationException, SAXException, IOException {
+    public record ParseResult(Feed feed, List<Item> items) {
+    }
+
+    public ParseResult parse(InputStream xml) throws ParserConfigurationException, SAXException, IOException {
         SAXParserFactory factory = SAXParserFactory.newInstance();
         SAXParser saxParser = factory.newSAXParser();
         RssHandler handler = new RssHandler();
         saxParser.parse(xml, handler);
 
-        return handler.getItems();
+        return new ParseResult(handler.getFeed(), handler.getItems());
     }
 }

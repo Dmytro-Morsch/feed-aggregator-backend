@@ -1,25 +1,26 @@
 package feedaggregator;
 
+import feedaggregator.module.Feed;
 import feedaggregator.module.Item;
 import org.xml.sax.Attributes;
-import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class RssHandler extends DefaultHandler {
-    private StringBuilder text = new StringBuilder();
+    private final StringBuilder text = new StringBuilder();
     private Item item;
-    private List<Item> items = new ArrayList<>();
+    private final Feed feed = new Feed();
+    private final List<Item> items = new ArrayList<>();
 
     @Override
-    public void characters(char[] ch, int start, int length) throws SAXException {
+    public void characters(char[] ch, int start, int length) {
         text.append(ch, start, length);
     }
 
     @Override
-    public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
+    public void startElement(String uri, String localName, String qName, Attributes attributes) {
         text.setLength(0);
 
         if (qName.equals("item")) {
@@ -29,8 +30,14 @@ public class RssHandler extends DefaultHandler {
     }
 
     @Override
-    public void endElement(String uri, String localName, String qName) throws SAXException {
-        if (item != null) {
+    public void endElement(String uri, String localName, String qName) {
+        if (item == null) {
+            switch (qName) {
+                case "title" -> feed.setTitle(text.toString());
+                case "description" -> feed.setDescription(text.toString());
+                case "link" -> feed.setSiteLink(text.toString());
+            }
+        } else {
             switch (qName) {
                 case "title" -> item.setTitle(text.toString());
                 case "description" -> item.setDescription(text.toString());
@@ -41,5 +48,9 @@ public class RssHandler extends DefaultHandler {
 
     public List<Item> getItems() {
         return items;
+    }
+
+    public Feed getFeed() {
+        return feed;
     }
 }
