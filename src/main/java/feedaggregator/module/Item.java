@@ -1,9 +1,6 @@
 package feedaggregator.module;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
 public class Item {
@@ -13,6 +10,9 @@ public class Item {
     private String title;
     private String description;
     private String link;
+    @ManyToOne
+    @JoinColumn(name = "feed_id")
+    private Feed feed;
 
     public Long getId() {
         return id;
@@ -44,5 +44,13 @@ public class Item {
 
     public void setLink(String link) {
         this.link = link;
+    }
+
+    public Feed getFeed() {
+        return feed;
+    }
+
+    public void setFeed(Feed feed) {
+        this.feed = feed;
     }
 }

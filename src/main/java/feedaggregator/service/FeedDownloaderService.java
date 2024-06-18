@@ -54,6 +54,9 @@ public class FeedDownloaderService {
         feed.setFeedLink(feedUrl);
 
         feedRepository.save(feed);
-        result.items().forEach(item -> itemRepository.save(item));
+        result.items().forEach(item -> {
+            item.setFeed(feed);
+            itemRepository.save(item);
+        });
     }
 }
