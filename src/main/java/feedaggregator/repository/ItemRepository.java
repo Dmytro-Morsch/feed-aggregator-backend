@@ -36,7 +36,7 @@ public class ItemRepository {
     }
 
     public List<Item> findByFeedId(Long feedId, boolean isDescOrder) {
-        StringBuilder sqlQuery = new StringBuilder("from Item where feedId = :feedId order by pubDate");
+        StringBuilder sqlQuery = new StringBuilder("from Item where feed.id = :feedId order by pubDate");
         if (isDescOrder) {
             sqlQuery.append(" desc");
         }
