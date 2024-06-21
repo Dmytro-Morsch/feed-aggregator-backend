@@ -3,11 +3,9 @@ package feedaggregator.controller;
 import feedaggregator.repository.FeedRepository;
 import feedaggregator.service.FeedDownloaderService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class FeedController {
@@ -26,5 +24,11 @@ public class FeedController {
     @GetMapping("/api/feeds")
     public ResponseEntity<?> getFeeds() {
         return ResponseEntity.ok(feedRepository.findAll());
+    }
+
+    @GetMapping("/api/feeds/{id}/icon")
+    public ResponseEntity<?> getFeedIcon(@PathVariable Long id) {
+        byte[] icon = feedRepository.getIcon(id);
+        return ResponseEntity.ok().contentType(MediaType.valueOf("image/x-icon")).body(icon);
     }
 }

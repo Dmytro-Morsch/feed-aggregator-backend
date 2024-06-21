@@ -14,6 +14,7 @@ public class Feed {
     private String description;
     private String feedLink;
     private String siteLink;
+    private byte[] icon;
 
     public Long getId() {
         return id;
@@ -53,5 +54,13 @@ public class Feed {
 
     public void setSiteLink(String siteLink) {
         this.siteLink = siteLink;
+    }
+
+    public byte[] getIcon() {
+        return icon;
+    }
+
+    public void setIcon(byte[] icon) {
+        this.icon = icon;
     }
 }

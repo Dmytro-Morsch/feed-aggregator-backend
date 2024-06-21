@@ -30,4 +30,10 @@ public class FeedRepository {
         Query query = entityManager.createQuery("from Feed");
         return query.getResultList();
     }
+
+    public byte[] getIcon(Long feedId) {
+        Query query = entityManager.createQuery("select icon from Feed where id = :id");
+        query.setParameter("id", feedId);
+        return (byte[]) query.getSingleResult();
+    }
 }

@@ -52,11 +52,21 @@ public class FeedDownloaderService {
 
         Feed feed = result.feed();
         feed.setFeedLink(feedUrl);
+        feed.setIcon(downloadSiteIcon(feed.getSiteLink()));
 
         feedRepository.save(feed);
         result.items().forEach(item -> {
             item.setFeed(feed);
             itemRepository.save(item);
         });
+    }
+
+    private byte[] downloadSiteIcon(String siteLink) throws IOException, InterruptedException {
+        HttpClient httpClient = HttpClient.newBuilder().build();
+        HttpRequest request = HttpRequest.newBuilder()
+                .GET()
+                .uri(URI.create(siteLink + "/favicon.ico"))
+                .build();
+        return httpClient.send(request, HttpResponse.BodyHandlers.ofByteArray()).body();
     }
 }
