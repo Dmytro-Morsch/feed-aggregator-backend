@@ -1,5 +1,6 @@
 package feedaggregator.controller;
 
+import feedaggregator.module.Feed;
 import feedaggregator.repository.FeedRepository;
 import feedaggregator.service.FeedDownloaderService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,8 +18,8 @@ public class FeedController {
 
     @PostMapping("/api/feed-link")
     public ResponseEntity<?> postFeed(@RequestBody String feedLink) {
-        feedDownloaderService.asyncDownloadFeed(feedLink);
-        return ResponseEntity.ok().build();
+        Feed feed = feedDownloaderService.asyncDownloadFeed(feedLink);
+        return ResponseEntity.ok(feed);
     }
 
     @GetMapping("/api/feeds")

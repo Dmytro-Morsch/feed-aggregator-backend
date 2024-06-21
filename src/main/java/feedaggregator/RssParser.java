@@ -15,10 +15,10 @@ public class RssParser {
     public record ParseResult(Feed feed, List<Item> items) {
     }
 
-    public ParseResult parse(InputStream xml) throws ParserConfigurationException, SAXException, IOException {
+    public ParseResult parse(InputStream xml, Feed feed) throws ParserConfigurationException, SAXException, IOException {
         SAXParserFactory factory = SAXParserFactory.newInstance();
         SAXParser saxParser = factory.newSAXParser();
-        RssHandler handler = new RssHandler();
+        RssHandler handler = new RssHandler(feed);
         saxParser.parse(xml, handler);
 
         return new ParseResult(handler.getFeed(), handler.getItems());

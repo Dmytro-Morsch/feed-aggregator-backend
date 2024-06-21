@@ -14,8 +14,12 @@ import java.util.List;
 public class RssHandler extends DefaultHandler {
     private final StringBuilder text = new StringBuilder();
     private Item item;
-    private final Feed feed = new Feed();
+    private final Feed feed;
     private final List<Item> items = new ArrayList<>();
+
+    public RssHandler(Feed feed) {
+        this.feed = feed;
+    }
 
     @Override
     public void characters(char[] ch, int start, int length) {
