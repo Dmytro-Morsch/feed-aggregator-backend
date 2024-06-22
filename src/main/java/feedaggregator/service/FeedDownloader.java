@@ -22,8 +22,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 @Service
-public class FeedDownloaderService {
-    private static final Logger log = LoggerFactory.getLogger(FeedDownloaderService.class);
+public class FeedDownloader {
+    private static final Logger log = LoggerFactory.getLogger(FeedDownloader.class);
     private final ExecutorService executorService = Executors.newSingleThreadExecutor();
 
     @Autowired
@@ -34,6 +34,9 @@ public class FeedDownloaderService {
 
     @Autowired
     private TransactionTemplate transactionTemplate;
+
+    @Autowired
+    private HtmlSanitizer htmlSanitizer;
 
     public Feed asyncDownloadFeed(String feedUrl) {
         Feed feed = new Feed();
@@ -72,6 +75,8 @@ public class FeedDownloaderService {
         feedRepository.save(feed);
         result.items().forEach(item -> {
             item.setFeed(feed);
+            item.setTitle(htmlSanitizer.sanitize(item.getTitle()));
+            item.setDescription(htmlSanitizer.sanitize(item.getDescription()));
             itemRepository.save(item);
         });
         log.info("Feed downloaded {}", feed.getFeedLink());
