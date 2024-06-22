@@ -16,5 +16,6 @@ create table item
     link     varchar(1000) not null,
     description text,
     pub_date timestamp     not null,
+    read     boolean       not null,
     feed_id  bigint        not null references feed (id) on delete cascade
 );

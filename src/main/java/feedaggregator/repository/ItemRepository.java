@@ -44,4 +44,14 @@ public class ItemRepository {
         query.setParameter("feedId", feedId);
         return query.getResultList();
     }
+
+    public void markRead(List<Long> itemIds) {
+        Query query = entityManager.createQuery("""
+                update Item
+                set read = true
+                where id in :ids
+                """);
+        query.setParameter("ids", itemIds);
+        query.executeUpdate();
+    }
 }

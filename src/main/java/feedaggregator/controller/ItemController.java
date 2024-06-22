@@ -4,9 +4,7 @@ import feedaggregator.module.Item;
 import feedaggregator.repository.ItemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -25,5 +23,23 @@ public class ItemController {
             items = itemRepository.findAll(isDescOrder);
         }
         return ResponseEntity.ok(items);
+    }
+
+    @PatchMapping("/api/items/{id}")
+    public ResponseEntity<?> markItemRead(@PathVariable Long id,
+                                          @RequestBody boolean read) {
+        Item item = itemRepository.findById(id);
+        if (item == null) {
+            return ResponseEntity.notFound().build();
+        }
+        item.setRead(read);
+        itemRepository.save(item);
+        return ResponseEntity.noContent().build();
+    }
+
+    @PatchMapping("/api/items/all/read")
+    public ResponseEntity<?> markAllRead(@RequestBody List<Long> itemIds) {
+        itemRepository.markRead(itemIds);
+        return ResponseEntity.noContent().build();
     }
 }
