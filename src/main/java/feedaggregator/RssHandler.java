@@ -50,7 +50,7 @@ public class RssHandler extends DefaultHandler {
                 case "description" -> item.setDescription(text.toString());
                 case "link" -> item.setLink(text.toString());
                 case "pubDate" -> {
-                    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("EEE, dd MMM yyyy HH:mm:ss Z");
+                    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("EEE, dd MMM yyyy HH:mm:ss [Z][z]");
                     Instant instant = ZonedDateTime.parse(text.toString(), formatter).toInstant();
                     item.setPubDate(instant);
                 }
