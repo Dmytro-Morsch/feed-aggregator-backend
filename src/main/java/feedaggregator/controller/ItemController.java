@@ -15,12 +15,13 @@ public class ItemController {
 
     @GetMapping("/api/items")
     public ResponseEntity<?> getItems(@RequestParam(required = false) Long feedId,
-                                      @RequestParam(required = false) boolean isDescOrder) {
+                                      @RequestParam(required = false) boolean isDescOrder,
+                                      @RequestParam(required = false) boolean isUnreadPosts) {
         List<Item> items;
         if (feedId != null) {
-            items = itemRepository.findByFeedId(feedId, isDescOrder);
+            items = itemRepository.findByFeedId(feedId, isDescOrder, isUnreadPosts);
         } else {
-            items = itemRepository.findAll(isDescOrder);
+            items = itemRepository.findAll(isDescOrder, isUnreadPosts);
         }
         return ResponseEntity.ok(items);
     }

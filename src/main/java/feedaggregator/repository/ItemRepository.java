@@ -26,20 +26,20 @@ public class ItemRepository {
         return entityManager.find(Item.class, id);
     }
 
-    public List<Item> findAll(boolean isDescOrder) {
-        StringBuilder sqlQuery = new StringBuilder("from Item order by pubDate");
-        if (isDescOrder) {
-            sqlQuery.append(" desc");
-        }
+    public List<Item> findAll(boolean isDescOrder, boolean isUnreadPosts) {
+        StringBuilder sqlQuery = new StringBuilder("from Item");
+        if (isUnreadPosts) sqlQuery.append(" where read = false");
+        sqlQuery.append(" order by pubDate");
+        if (isDescOrder) sqlQuery.append(" desc");
         Query query = entityManager.createQuery(sqlQuery.toString());
         return query.getResultList();
     }
 
-    public List<Item> findByFeedId(Long feedId, boolean isDescOrder) {
-        StringBuilder sqlQuery = new StringBuilder("from Item where feed.id = :feedId order by pubDate");
-        if (isDescOrder) {
-            sqlQuery.append(" desc");
-        }
+    public List<Item> findByFeedId(Long feedId, boolean isDescOrder, boolean isUnreadPosts) {
+        StringBuilder sqlQuery = new StringBuilder("from Item where feed.id = :feedId");
+        if (isUnreadPosts) sqlQuery.append(" and read = false");
+        sqlQuery.append(" order by pubDate");
+        if (isDescOrder) sqlQuery.append(" desc");
         Query query = entityManager.createQuery(sqlQuery.toString());
         query.setParameter("feedId", feedId);
         return query.getResultList();
