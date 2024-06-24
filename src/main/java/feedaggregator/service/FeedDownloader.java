@@ -4,6 +4,7 @@ import feedaggregator.RssParser;
 import feedaggregator.module.Feed;
 import feedaggregator.repository.FeedRepository;
 import feedaggregator.repository.ItemRepository;
+import jakarta.transaction.Transactional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +23,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 @Service
+@Transactional
 public class FeedDownloader {
     private static final Logger log = LoggerFactory.getLogger(FeedDownloader.class);
     private final ExecutorService executorService = Executors.newSingleThreadExecutor();
@@ -56,7 +58,7 @@ public class FeedDownloader {
         return feed;
     }
 
-    private void downloadFeed(Long feedId) throws IOException, InterruptedException, ParserConfigurationException, SAXException {
+    public void downloadFeed(Long feedId) throws IOException, InterruptedException, ParserConfigurationException, SAXException {
         Feed feed = feedRepository.findById(feedId);
         log.info("Downloading feed {}", feed.getFeedLink());
         HttpClient httpClient = HttpClient.newBuilder().build();

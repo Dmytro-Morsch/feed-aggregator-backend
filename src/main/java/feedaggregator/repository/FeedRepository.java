@@ -36,4 +36,9 @@ public class FeedRepository {
         query.setParameter("id", feedId);
         return (byte[]) query.getSingleResult();
     }
+
+    public List<Long> findIds() {
+        Query query = entityManager.createQuery("select id from Feed");
+        return query.getResultList();
+    }
 }

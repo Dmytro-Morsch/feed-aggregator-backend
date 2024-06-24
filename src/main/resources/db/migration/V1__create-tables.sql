@@ -17,5 +17,6 @@ create table item
     description text,
     pub_date timestamp     not null,
     read     boolean       not null,
+    guid     varchar(100)  not null unique,
     feed_id  bigint        not null references feed (id) on delete cascade
 );

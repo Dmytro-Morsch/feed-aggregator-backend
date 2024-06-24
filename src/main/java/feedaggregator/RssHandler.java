@@ -54,6 +54,7 @@ public class RssHandler extends DefaultHandler {
                     Instant instant = ZonedDateTime.parse(text.toString(), formatter).toInstant();
                     item.setPubDate(instant);
                 }
+                case "guid" -> item.setGuid(text.toString());
             }
         }
     }

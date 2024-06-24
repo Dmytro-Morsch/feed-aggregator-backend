@@ -14,6 +14,7 @@ public class Item {
     private String link;
     private Instant pubDate;
     private boolean read;
+    private String guid;
     @ManyToOne
     @JoinColumn(name = "feed_id")
     private Feed feed;
@@ -64,6 +65,14 @@ public class Item {
 
     public void setRead(boolean read) {
         this.read = read;
+    }
+
+    public String getGuid() {
+        return guid;
+    }
+
+    public void setGuid(String guid) {
+        this.guid = guid;
     }
 
     public Feed getFeed() {
