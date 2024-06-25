@@ -9,12 +9,19 @@ public class Item {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String title;
+
     private String description;
+
     private String link;
+
     private Instant pubDate;
+
     private boolean read;
+
     private String guid;
+
     @ManyToOne
     @JoinColumn(name = "feed_id")
     private Feed feed;

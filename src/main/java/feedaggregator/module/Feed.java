@@ -1,21 +1,29 @@
 package feedaggregator.module;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
+
+import java.util.Set;
 
 @Entity
 public class Feed {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String title;
+
     private String description;
+
     private String feedLink;
+
     private String siteLink;
+
     private byte[] icon;
+
     private boolean loaded;
+
+    @OneToMany(mappedBy = "feed")
+    private Set<Subscription> subscriptions;
 
     public Long getId() {
         return id;

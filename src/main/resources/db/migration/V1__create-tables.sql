@@ -20,3 +20,17 @@ create table item
     guid     varchar(100)  not null unique,
     feed_id  bigint        not null references feed (id) on delete cascade
 );
+
+create table "user"
+(
+    id       bigint primary key generated always as identity,
+    email    varchar(100) not null,
+    username varchar(100) not null
+);
+
+create table subscription
+(
+    user_id bigint not null references "user" (id) on delete cascade,
+    feed_id bigint not null references feed (id) on delete cascade,
+    constraint subscription_pkey primary key (user_id, feed_id)
+);

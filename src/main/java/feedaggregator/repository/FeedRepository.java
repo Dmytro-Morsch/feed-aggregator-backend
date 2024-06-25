@@ -41,4 +41,14 @@ public class FeedRepository {
         Query query = entityManager.createQuery("select id from Feed");
         return query.getResultList();
     }
+
+    public List<Feed> getUserFeeds(Long userId) {
+        Query query = entityManager.createQuery("""
+                from Feed f inner join Subscription s on f.id = s.feed.id
+                where s.user.id = :userId
+                """);
+        query.setParameter("userId", userId);
+        return query.getResultList();
+    }
+
 }

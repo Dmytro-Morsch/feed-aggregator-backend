@@ -2,8 +2,11 @@ package feedaggregator.controller;
 
 import feedaggregator.module.Feed;
 import feedaggregator.module.Item;
+import feedaggregator.module.Subscription;
+import feedaggregator.module.User;
 import feedaggregator.repository.FeedRepository;
 import feedaggregator.repository.ItemRepository;
+import feedaggregator.repository.UserRepository;
 import feedaggregator.service.FeedDownloader;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
@@ -26,9 +29,17 @@ public class FeedController {
     @Autowired
     private ItemRepository itemRepository;
 
+    @Autowired
+    private UserRepository userRepository;
+
     @PostMapping("/api/feed-link")
     public ResponseEntity<?> postFeed(@RequestBody String feedLink) {
         Feed feed = feedDownloader.asyncDownloadFeed(feedLink);
+
+        User user = userRepository.getById(1L);
+        Subscription sub = new Subscription(feed.getId(), user.getId(), feed, user);
+        userRepository.subscribe(sub);
+
         return ResponseEntity.ok(feed);
     }
 
