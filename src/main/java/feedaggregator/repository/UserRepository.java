@@ -19,6 +19,15 @@ public class UserRepository {
         entityManager.persist(subscription);
     }
 
+    public void unsubscribe(Long feedId, Long userId) {
+        Query query = entityManager.createQuery("""
+                delete from Subscription where feed.id = :feedId and user.id = :userId
+                """);
+        query.setParameter("feedId", feedId);
+        query.setParameter("userId", userId);
+        query.executeUpdate();
+    }
+
     public User getById(Long id) {
         Query query = entityManager.createQuery("from User where id = :id");
         query.setParameter("id", id);
