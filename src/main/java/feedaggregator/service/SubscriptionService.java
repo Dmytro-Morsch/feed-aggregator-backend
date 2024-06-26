@@ -1,0 +1,46 @@
+package feedaggregator.service;
+
+import feedaggregator.module.Feed;
+import feedaggregator.module.Subscription;
+import feedaggregator.module.User;
+import feedaggregator.repository.FeedRepository;
+import feedaggregator.repository.SubscriptionRepository;
+import feedaggregator.repository.UserRepository;
+import jakarta.transaction.Transactional;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+@Transactional
+public class SubscriptionService {
+
+    @Autowired
+    private SubscriptionRepository subscriptionRepository;
+
+    @Autowired
+    private UserRepository userRepository;
+
+    @Autowired
+    private FeedRepository feedRepository;
+
+    public Subscription subscribe(String feedLink) {
+        Feed feed = new Feed();
+        feed.setFeedLink(feedLink);
+        feed.setSiteLink(feedLink);
+        feed.setTitle(feedLink);
+        feedRepository.save(feed);
+
+        User user = userRepository.getById(1L);
+        Subscription subscription = new Subscription();
+        subscription.setUser(user);
+        subscription.setFeed(feed);
+        subscription.setUserId(user.getId());
+        subscription.setFeedId(feed.getId());
+        subscriptionRepository.subscribe(subscription);
+        return subscription;
+    }
+
+    public void renameSubscription(Long feedId, String title) {
+        subscriptionRepository.rename(feedId, 1L, title);
+    }
+}

@@ -32,5 +32,6 @@ create table subscription
 (
     user_id bigint not null references "user" (id) on delete cascade,
     feed_id bigint not null references feed (id) on delete cascade,
+    title varchar(1000),
     constraint subscription_pkey primary key (user_id, feed_id)
 );

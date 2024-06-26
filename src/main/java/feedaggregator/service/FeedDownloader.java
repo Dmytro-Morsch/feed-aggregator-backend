@@ -40,13 +40,7 @@ public class FeedDownloader {
     @Autowired
     private HtmlSanitizer htmlSanitizer;
 
-    public Feed asyncDownloadFeed(String feedUrl) {
-        Feed feed = new Feed();
-        feed.setFeedLink(feedUrl);
-        feed.setSiteLink(feedUrl);
-        feed.setTitle(feedUrl);
-        feedRepository.save(feed);
-
+    public void asyncDownloadFeed(Feed feed) {
         executorService.execute(() -> transactionTemplate.execute(status -> {
             try {
                 downloadFeed(feed.getId());
@@ -55,7 +49,6 @@ public class FeedDownloader {
             }
             return null;
         }));
-        return feed;
     }
 
     public void downloadFeed(Long feedId) throws IOException, InterruptedException, ParserConfigurationException, SAXException {

@@ -1,13 +1,14 @@
 package feedaggregator.controller;
 
-import feedaggregator.module.Feed;
+import com.fasterxml.jackson.databind.JsonNode;
+import feedaggregator.dto.SubscriptionDto;
 import feedaggregator.module.Item;
 import feedaggregator.module.Subscription;
-import feedaggregator.module.User;
 import feedaggregator.repository.FeedRepository;
 import feedaggregator.repository.ItemRepository;
-import feedaggregator.repository.UserRepository;
+import feedaggregator.repository.SubscriptionRepository;
 import feedaggregator.service.FeedDownloader;
+import feedaggregator.service.SubscriptionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -30,22 +31,29 @@ public class FeedController {
     private ItemRepository itemRepository;
 
     @Autowired
-    private UserRepository userRepository;
+    private SubscriptionRepository subscriptionRepository;
 
-    @PostMapping("/api/feed-link")
-    public ResponseEntity<?> postFeed(@RequestBody String feedLink) {
-        Feed feed = feedDownloader.asyncDownloadFeed(feedLink);
+    @Autowired
+    private SubscriptionService subscriptionService;
 
-        User user = userRepository.getById(1L);
-        Subscription sub = new Subscription(feed.getId(), user.getId(), feed, user);
-        userRepository.subscribe(sub);
+    @PostMapping("/api/feeds/subscribe")
+    public ResponseEntity<?> subscribe(@RequestBody String feedLink) {
+        Subscription subscription = subscriptionService.subscribe(feedLink);
+        feedDownloader.asyncDownloadFeed(subscription.getFeed());
+        return ResponseEntity.ok(SubscriptionDto.fromEntity(subscription));
+    }
 
-        return ResponseEntity.ok(feed);
+    @DeleteMapping("/api/feeds/{feedId}/unsubscribe")
+    public ResponseEntity<?> unsubscribe(@PathVariable Long feedId) {
+        subscriptionRepository.unsubscribe(feedId, 1L);
+        return ResponseEntity.ok().build();
     }
 
     @GetMapping("/api/feeds")
     public ResponseEntity<?> getFeeds() {
-        return ResponseEntity.ok(feedRepository.findAll());
+        List<Subscription> subscriptions = subscriptionRepository.getSubscriptions(1L);
+        List<SubscriptionDto> subscriptionDtos = subscriptions.stream().map(SubscriptionDto::fromEntity).toList();
+        return ResponseEntity.ok(subscriptionDtos);
     }
 
     @GetMapping("/api/feeds/{id}/icon")
@@ -60,5 +68,12 @@ public class FeedController {
         feedDownloader.downloadFeed(id);
         List<Item> items = itemRepository.findByFeedId(id, isDescOrder, false);
         return ResponseEntity.ok(items);
+    }
+
+    @PatchMapping(value = "/api/feeds/{feedId}/rename", consumes = "application/json")
+    public ResponseEntity<?> renameFeed(@PathVariable Long feedId,
+                                        @RequestBody JsonNode body) {
+        subscriptionService.renameSubscription(feedId, body.textValue());
+        return ResponseEntity.noContent().build();
     }
 }
