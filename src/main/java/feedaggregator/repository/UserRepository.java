@@ -22,4 +22,7 @@ public class UserRepository {
         return (User) query.getSingleResult();
     }
 
+    public void save(User user) {
+        entityManager.persist(user);
+    }
 }

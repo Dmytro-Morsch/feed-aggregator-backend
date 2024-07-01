@@ -23,22 +23,6 @@ public class Subscription {
     @JoinColumn(name = "feed_id")
     private Feed feed;
 
-    public Long getFeedId() {
-        return feedId;
-    }
-
-    public void setFeedId(Long feedId) {
-        this.feedId = feedId;
-    }
-
-    public Long getUserId() {
-        return userId;
-    }
-
-    public void setUserId(Long userId) {
-        this.userId = userId;
-    }
-
     public String getTitle() {
         return title;
     }
@@ -53,6 +37,7 @@ public class Subscription {
 
     public void setUser(User user) {
         this.user = user;
+        this.userId = user.getId();
     }
 
     public Feed getFeed() {
@@ -61,5 +46,6 @@ public class Subscription {
 
     public void setFeed(Feed feed) {
         this.feed = feed;
+        this.feedId = feed.getId();
     }
 }

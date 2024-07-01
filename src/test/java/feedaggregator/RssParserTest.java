@@ -2,7 +2,11 @@ package feedaggregator;
 
 import feedaggregator.module.Feed;
 import feedaggregator.module.Item;
+import feedaggregator.repository.FeedRepository;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
@@ -13,13 +17,28 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
+@SpringBootTest
 class RssParserTest {
-    RssParser rssParser = new RssParser();
+    @Autowired
+    private FeedRepository feedRepository;
+
+    private final RssParser rssParser = new RssParser();
+
+    private Feed feed;
+
+    @BeforeEach
+    void setUp() {
+        feed = new Feed();
+        feed.setTitle("https://jobs.dou.ua/vacancies/?utm_source=jobsrss&amp;category=Java");
+        feed.setFeedLink("https://jobs.dou.ua/vacancies/?utm_source=jobsrss&amp;category=Java");
+        feed.setSiteLink("https://jobs.dou.ua/vacancies/?utm_source=jobsrss&amp;category=Java");
+        feedRepository.save(feed);
+    }
 
     @Test
-    void parse() throws IOException, ParserConfigurationException, SAXException {
+    void testParse() throws IOException, ParserConfigurationException, SAXException {
         try (FileInputStream inputStream = new FileInputStream("src/test/resources/feed.xml")) {
-            RssParser.ParseResult data = rssParser.parse(inputStream);
+            RssParser.ParseResult data = rssParser.parse(inputStream, feed);
             List<Item> items = data.items();
             Feed feed = data.feed();
 

@@ -16,8 +16,7 @@ create table item
     link     varchar(1000) not null,
     description text,
     pub_date timestamp     not null,
-    read     boolean       not null,
-    guid varchar(500) not null unique,
+    guid     varchar(500)  not null unique,
     feed_id  bigint        not null references feed (id) on delete cascade
 );
 
@@ -35,3 +34,10 @@ create table subscription
     title varchar(1000),
     constraint subscription_pkey primary key (user_id, feed_id)
 );
+
+create table read_item
+(
+    user_id bigint not null references "user" (id) on delete cascade,
+    item_id bigint not null references item (id) on delete cascade,
+    constraint read_item_pkey primary key (user_id, item_id)
+)

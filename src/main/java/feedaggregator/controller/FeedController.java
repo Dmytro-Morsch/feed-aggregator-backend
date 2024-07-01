@@ -1,9 +1,10 @@
 package feedaggregator.controller;
 
 import com.fasterxml.jackson.databind.JsonNode;
+import feedaggregator.dto.ItemDto;
 import feedaggregator.dto.SubscriptionDto;
-import feedaggregator.module.Item;
 import feedaggregator.module.Subscription;
+import feedaggregator.module.UserItem;
 import feedaggregator.repository.FeedRepository;
 import feedaggregator.repository.ItemRepository;
 import feedaggregator.repository.SubscriptionRepository;
@@ -17,6 +18,7 @@ import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -64,10 +66,14 @@ public class FeedController {
 
     @PostMapping("/api/feeds/{id}/update")
     public ResponseEntity<?> updateFeed(@PathVariable Long id,
-                                        @RequestParam boolean isDescOrder) throws IOException, ParserConfigurationException, InterruptedException, SAXException {
+                                        @RequestParam boolean descOrder) throws IOException, ParserConfigurationException, InterruptedException, SAXException {
         feedDownloader.downloadFeed(id);
-        List<Item> items = itemRepository.findByFeedId(id, isDescOrder, false);
-        return ResponseEntity.ok(items);
+        List<UserItem> userItems = itemRepository.getUserItems(1L, id, descOrder, false);
+        List<ItemDto> itemDtos = new ArrayList<>();
+        for (UserItem userItem : userItems) {
+            itemDtos.add(ItemDto.fromEntity(userItem.item(), userItem.read()));
+        }
+        return ResponseEntity.ok(itemDtos);
     }
 
     @PatchMapping(value = "/api/feeds/{feedId}/rename", consumes = "application/json")

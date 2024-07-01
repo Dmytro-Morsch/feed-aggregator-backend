@@ -34,8 +34,6 @@ public class SubscriptionService {
         Subscription subscription = new Subscription();
         subscription.setUser(user);
         subscription.setFeed(feed);
-        subscription.setUserId(user.getId());
-        subscription.setFeedId(feed.getId());
         subscriptionRepository.subscribe(subscription);
         return subscription;
     }

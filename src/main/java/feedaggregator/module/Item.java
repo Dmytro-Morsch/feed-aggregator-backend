@@ -18,8 +18,6 @@ public class Item {
 
     private Instant pubDate;
 
-    private boolean read;
-
     private String guid;
 
     @ManyToOne
@@ -64,14 +62,6 @@ public class Item {
 
     public void setPubDate(Instant pubDate) {
         this.pubDate = pubDate;
-    }
-
-    public boolean isRead() {
-        return read;
-    }
-
-    public void setRead(boolean read) {
-        this.read = read;
     }
 
     public String getGuid() {
