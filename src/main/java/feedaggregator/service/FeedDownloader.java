@@ -80,9 +80,11 @@ public class FeedDownloader {
     private byte[] downloadSiteIcon(String siteLink) throws IOException, InterruptedException {
         HttpClient httpClient = HttpClient.newBuilder().build();
         URI uri = URI.create(siteLink);
+        String uriScheme = uri.getScheme();
+        if (uriScheme.equals("http")) uriScheme = "https";
         HttpRequest request = HttpRequest.newBuilder()
                 .GET()
-                .uri(URI.create(uri.getScheme() + "://" + uri.getHost() + "/favicon.ico"))
+                .uri(URI.create(uriScheme + "://" + uri.getHost() + "/favicon.ico"))
                 .build();
         return httpClient.send(request, HttpResponse.BodyHandlers.ofByteArray()).body();
     }
