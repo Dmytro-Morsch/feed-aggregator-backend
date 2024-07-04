@@ -58,6 +58,13 @@ public class FeedController {
         return ResponseEntity.ok(subscriptionDtos);
     }
 
+    @GetMapping("/api/feeds/{id}")
+    public ResponseEntity<?> getFeed(@PathVariable Long id) {
+        Subscription subscription = subscriptionRepository.getSubscription(id, 1L);
+        if (subscription == null) return ResponseEntity.notFound().build();
+        return ResponseEntity.ok(SubscriptionDto.fromEntity(subscription));
+    }
+
     @GetMapping("/api/feeds/{id}/icon")
     public ResponseEntity<?> getFeedIcon(@PathVariable Long id) {
         byte[] icon = feedRepository.getIcon(id);

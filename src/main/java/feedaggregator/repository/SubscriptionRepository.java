@@ -4,6 +4,7 @@ import feedaggregator.module.Subscription;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.Query;
 import jakarta.transaction.Transactional;
+import org.springframework.dao.support.DataAccessUtils;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -27,6 +28,13 @@ public class SubscriptionRepository {
         Query query = entityManager.createQuery("from Subscription where user.id = :userId");
         query.setParameter("userId", userId);
         return query.getResultList();
+    }
+
+    public Subscription getSubscription(Long feedId, Long userId) {
+        Query query = entityManager.createQuery("from Subscription where user.id = :userId and feed.id = :feedId");
+        query.setParameter("userId", userId);
+        query.setParameter("feedId", feedId);
+        return (Subscription) DataAccessUtils.singleResult(query.getResultList());
     }
 
     public void unsubscribe(Long feedId, Long userId) {
