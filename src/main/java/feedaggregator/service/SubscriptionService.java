@@ -24,11 +24,14 @@ public class SubscriptionService {
     private FeedRepository feedRepository;
 
     public Subscription subscribe(String feedLink) {
-        Feed feed = new Feed();
-        feed.setFeedLink(feedLink);
-        feed.setSiteLink(feedLink);
-        feed.setTitle(feedLink);
-        feedRepository.save(feed);
+        Feed feed = feedRepository.findByFeedLink(feedLink);
+        if (feed == null) {
+            feed = new Feed();
+            feed.setFeedLink(feedLink);
+            feed.setSiteLink(feedLink);
+            feed.setTitle(feedLink);
+            feedRepository.save(feed);
+        }
 
         User user = userRepository.getById(1L);
         Subscription subscription = new Subscription();
