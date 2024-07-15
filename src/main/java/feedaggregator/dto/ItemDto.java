@@ -12,8 +12,9 @@ public class ItemDto {
     public Instant pubDate;
     public String guid;
     public boolean read;
+    public boolean starred;
 
-    public static ItemDto fromEntity(Item item, boolean read) {
+    public static ItemDto fromEntity(Item item, boolean read, boolean starred) {
         ItemDto itemDto = new ItemDto();
         itemDto.id = item.getId();
         itemDto.title = item.getTitle();
@@ -22,6 +23,7 @@ public class ItemDto {
         itemDto.pubDate = item.getPubDate();
         itemDto.guid = item.getGuid();
         itemDto.read = read;
+        itemDto.starred = starred;
         return itemDto;
     }
 }

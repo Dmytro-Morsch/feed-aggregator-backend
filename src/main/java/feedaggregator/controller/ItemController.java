@@ -24,11 +24,12 @@ public class ItemController {
     @GetMapping("/api/items")
     public ResponseEntity<?> getItems(@RequestParam(required = false) Long feedId,
                                       @RequestParam(required = false) boolean descOrder,
-                                      @RequestParam(required = false) boolean unreadOnly) {
-        List<UserItem> userItems = itemRepository.getUserItems(1L, feedId, descOrder, unreadOnly);
+                                      @RequestParam(required = false) boolean unreadOnly,
+                                      @RequestParam(required = false) boolean starOnly) {
+        List<UserItem> userItems = itemRepository.getUserItems(1L, feedId, descOrder, unreadOnly, starOnly);
         List<ItemDto> itemDtos = new ArrayList<>();
         for (UserItem userItem : userItems) {
-            itemDtos.add(ItemDto.fromEntity(userItem.item(), userItem.read()));
+            itemDtos.add(ItemDto.fromEntity(userItem.item(), userItem.read(), userItem.starred()));
         }
         return ResponseEntity.ok(itemDtos);
     }
@@ -40,13 +41,11 @@ public class ItemController {
         return ResponseEntity.ok(itemsCount - readItemsCount);
     }
 
-    @PatchMapping("/api/items/{id}")
+    @PatchMapping("/api/items/{id}/read")
     public ResponseEntity<?> markItemRead(@PathVariable Long id,
                                           @RequestBody Boolean read) {
         Item item = itemRepository.findById(id);
-        if (item == null) {
-            return ResponseEntity.notFound().build();
-        }
+        if (item == null) return ResponseEntity.notFound().build();
         itemService.markRead(item, read);
         return ResponseEntity.noContent().build();
     }
@@ -57,4 +56,12 @@ public class ItemController {
         return ResponseEntity.noContent().build();
     }
 
+    @PatchMapping("/api/items/{id}/star")
+    public ResponseEntity<?> markItemStar(@PathVariable Long id,
+                                          @RequestBody Boolean star) {
+        Item item = itemRepository.findById(id);
+        if (item == null) return ResponseEntity.notFound().build();
+        itemService.markStar(item, star);
+        return ResponseEntity.noContent().build();
+    }
 }

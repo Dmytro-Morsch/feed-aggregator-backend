@@ -40,4 +40,11 @@ create table read_item
     user_id bigint not null references "user" (id) on delete cascade,
     item_id bigint not null references item (id) on delete cascade,
     constraint read_item_pkey primary key (user_id, item_id)
-)
+);
+
+create table star_item
+(
+    user_id bigint not null references "user" (id) on delete cascade,
+    item_id bigint not null references item (id) on delete cascade,
+    constraint star_item_pkey primary key (user_id, item_id)
+);

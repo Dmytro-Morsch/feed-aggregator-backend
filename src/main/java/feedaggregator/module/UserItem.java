@@ -1,4 +1,4 @@
 package feedaggregator.module;
 
-public record UserItem(Item item, boolean read) {
+public record UserItem(Item item, boolean read, boolean starred) {
 }

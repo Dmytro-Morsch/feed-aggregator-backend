@@ -75,10 +75,10 @@ public class FeedController {
     public ResponseEntity<?> updateFeed(@PathVariable Long id,
                                         @RequestParam boolean descOrder) throws IOException, ParserConfigurationException, InterruptedException, SAXException {
         feedDownloader.downloadFeed(id);
-        List<UserItem> userItems = itemRepository.getUserItems(1L, id, descOrder, false);
+        List<UserItem> userItems = itemRepository.getUserItems(1L, id, descOrder, false, false);
         List<ItemDto> itemDtos = new ArrayList<>();
         for (UserItem userItem : userItems) {
-            itemDtos.add(ItemDto.fromEntity(userItem.item(), userItem.read()));
+            itemDtos.add(ItemDto.fromEntity(userItem.item(), userItem.read(), userItem.starred()));
         }
         return ResponseEntity.ok(itemDtos);
     }
