@@ -34,13 +34,6 @@ public class ItemController {
         return ResponseEntity.ok(itemDtos);
     }
 
-    @GetMapping("/api/feeds/{feedId}/items-count")
-    public ResponseEntity<?> getItemsCount(@PathVariable Long feedId) {
-        Long readItemsCount = itemRepository.getReadItemsCount(feedId, 1L);
-        Long itemsCount = itemRepository.getItemsCount(feedId, 1L);
-        return ResponseEntity.ok(itemsCount - readItemsCount);
-    }
-
     @PatchMapping("/api/items/{id}/read")
     public ResponseEntity<?> markItemRead(@PathVariable Long id,
                                           @RequestBody Boolean read) {

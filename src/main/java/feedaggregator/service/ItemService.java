@@ -44,6 +44,11 @@ public class ItemService {
         starItem.setUser(user);
         if (star) itemRepository.markStar(starItem);
         else itemRepository.markUnstar(item.getId(), 1L);
+    }
 
+    public Long getCountOfUnreadItems(Long feedId) {
+        Long readItemsCount = itemRepository.getReadItemsCount(feedId, 1L);
+        Long itemsCount = itemRepository.getItemsCount(feedId, 1L);
+        return itemsCount - readItemsCount;
     }
 }
