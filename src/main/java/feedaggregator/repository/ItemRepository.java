@@ -71,29 +71,17 @@ public class ItemRepository {
         return (Item) DataAccessUtils.singleResult(query.getResultList());
     }
 
-    public Long getReadItemsCount(Long feedId, Long userId) {
+    public long getUnreadItemsCount(Long feedId, Long userId) {
         Query query = entityManager.createQuery("""
                 select count(*)
                 from Item i
                 left outer join Subscription s on i.feed.id = s.feed.id
                 left outer join ReadItem r on i.id = r.itemId and s.user.id = r.user.id
-                where i.feed.id = :feedId and r.user.id = :userId
+                where i.feed.id = :feedId and s.user.id = :userId and r.user.id is null
                 """);
         query.setParameter("userId", userId);
         query.setParameter("feedId", feedId);
-        return (Long) query.getSingleResult();
-    }
-
-    public Long getItemsCount(Long feedId, Long userId) {
-        Query query = entityManager.createQuery("""
-                select count(*)
-                from Item i
-                left outer join Subscription s on i.feed.id = s.feed.id
-                where i.feed.id = :feedId and s.user.id = :userId
-                """);
-        query.setParameter("userId", userId);
-        query.setParameter("feedId", feedId);
-        return (Long) query.getSingleResult();
+        return (long) query.getSingleResult();
     }
 
     public void markStar(StarItem starItem) {

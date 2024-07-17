@@ -9,7 +9,6 @@ import feedaggregator.repository.FeedRepository;
 import feedaggregator.repository.ItemRepository;
 import feedaggregator.repository.SubscriptionRepository;
 import feedaggregator.service.FeedDownloader;
-import feedaggregator.service.ItemService;
 import feedaggregator.service.SubscriptionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
@@ -39,10 +38,7 @@ public class FeedController {
     @Autowired
     private SubscriptionService subscriptionService;
 
-    @Autowired
-    private ItemService itemService;
-
-    @PostMapping("/api/feeds/subscribe")
+    @PostMapping(value = "/api/feeds/subscribe")
     public ResponseEntity<?> subscribe(@RequestBody String feedLink) {
         Subscription subscription = subscriptionService.subscribe(feedLink);
         feedDownloader.asyncDownloadFeed(subscription.getFeed());
@@ -58,7 +54,9 @@ public class FeedController {
     @GetMapping("/api/feeds")
     public ResponseEntity<?> getFeeds() {
         List<Subscription> subscriptions = subscriptionRepository.getSubscriptions(1L);
-        List<SubscriptionDto> subscriptionDtos = subscriptions.stream().map(subscription -> SubscriptionDto.fromEntity(subscription, itemService.getCountOfUnreadItems(subscription.getFeed().getId()))).toList();
+        List<SubscriptionDto> subscriptionDtos = subscriptions.stream()
+                .map(subscription -> SubscriptionDto.fromEntity(subscription, itemRepository.getUnreadItemsCount(subscription.getFeed().getId(), 1L)))
+                .toList();
         return ResponseEntity.ok(subscriptionDtos);
     }
 
@@ -66,7 +64,7 @@ public class FeedController {
     public ResponseEntity<?> getFeed(@PathVariable Long id) {
         Subscription subscription = subscriptionRepository.getSubscription(id, 1L);
         if (subscription == null) return ResponseEntity.notFound().build();
-        return ResponseEntity.ok(SubscriptionDto.fromEntity(subscription, itemService.getCountOfUnreadItems(id)));
+        return ResponseEntity.ok(SubscriptionDto.fromEntity(subscription, itemRepository.getUnreadItemsCount(id, 1L)));
     }
 
     @GetMapping("/api/feeds/{id}/icon")
