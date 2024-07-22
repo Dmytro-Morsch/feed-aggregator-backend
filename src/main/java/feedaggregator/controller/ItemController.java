@@ -29,7 +29,7 @@ public class ItemController {
         List<UserItem> userItems = itemRepository.getUserItems(1L, feedId, descOrder, unreadOnly, starOnly);
         List<ItemDto> itemDtos = new ArrayList<>();
         for (UserItem userItem : userItems) {
-            itemDtos.add(ItemDto.fromEntity(userItem.item(), userItem.read(), userItem.starred()));
+            itemDtos.add(ItemDto.fromEntity(userItem.item(), userItem.item().getFeed().getId(), userItem.read(), userItem.starred()));
         }
         return ResponseEntity.ok(itemDtos);
     }
