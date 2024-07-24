@@ -51,7 +51,7 @@ public class ItemRepository {
                 left outer join StarItem si on i.id = si.itemId and s.userId = si.userId
                 where s.userId = :userId
                 """);
-        if (unreadOnly) sql.append(" and r.itemId is not null");
+        if (unreadOnly) sql.append(" and r.itemId is null");
         if (starOnly) sql.append(" and si.itemId is not null");
         if (feedId != null) sql.append(" and s.feedId = :feedId");
         sql.append(" order by i.pubDate");
