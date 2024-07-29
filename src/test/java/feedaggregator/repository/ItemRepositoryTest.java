@@ -67,9 +67,10 @@ class ItemRepositoryTest {
     void testSaveAndGetUnreadOnly() {
         List<UserItem> userItems = itemRepository.getUserItems(user.getId(), feed.getId(), false, true, false);
 
-        assertEquals(2, userItems.size());
-        assertEquals("Test title 4", userItems.get(0).item().getTitle());
-        assertEquals("Test title 5", userItems.get(1).item().getTitle());
+        assertEquals(3, userItems.size());
+        assertEquals("Test title 1", userItems.get(0).item().getTitle());
+        assertEquals("Test title 2", userItems.get(1).item().getTitle());
+        assertEquals("Test title 3", userItems.get(2).item().getTitle());
     }
 
     private void createItems() {

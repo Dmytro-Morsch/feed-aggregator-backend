@@ -3,6 +3,7 @@ package feedaggregator;
 import feedaggregator.module.Feed;
 import feedaggregator.module.Item;
 import feedaggregator.repository.FeedRepository;
+import jakarta.transaction.Transactional;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +19,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @SpringBootTest
+@Transactional
 class RssParserTest {
     @Autowired
     private FeedRepository feedRepository;
