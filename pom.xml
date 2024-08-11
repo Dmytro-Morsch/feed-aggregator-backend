@@ -60,10 +60,19 @@
 
     <build>
         <finalName>feed-aggregator</finalName>
+        <resources>
+            <resource>
+                <directory>../feed-aggregator-frontend/dist</directory>
+                <targetPath>static</targetPath>
+                <filtering>false</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+        </resources>
 
         <plugins>
             <plugin>
-                <!-- Clean database schema when running 'mvn clean' -->
                 <groupId>org.flywaydb</groupId>
                 <artifactId>flyway-maven-plugin</artifactId>
                 <executions>
