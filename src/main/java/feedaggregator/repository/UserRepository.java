@@ -22,6 +22,12 @@ public class UserRepository {
         return (User) query.getSingleResult();
     }
 
+    public User findByEmail(String email) {
+        Query query = entityManager.createQuery("from User where email = :email");
+        query.setParameter("email", email);
+        return (User) query.getSingleResult();
+    }
+
     public void save(User user) {
         entityManager.persist(user);
     }
