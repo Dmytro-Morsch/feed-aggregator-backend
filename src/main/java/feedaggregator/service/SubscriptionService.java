@@ -23,7 +23,7 @@ public class SubscriptionService {
     @Autowired
     private FeedRepository feedRepository;
 
-    public Subscription subscribe(String feedLink) {
+    public Subscription subscribe(String feedLink, Long userId) {
         Feed feed = feedRepository.findByFeedLink(feedLink);
         if (feed == null) {
             feed = new Feed();
@@ -33,7 +33,7 @@ public class SubscriptionService {
             feedRepository.save(feed);
         }
 
-        User user = userRepository.getById(1L);
+        User user = userRepository.getById(userId);
         Subscription subscription = new Subscription();
         subscription.setUser(user);
         subscription.setFeed(feed);
@@ -41,7 +41,7 @@ public class SubscriptionService {
         return subscription;
     }
 
-    public void renameSubscription(Long feedId, String title) {
-        subscriptionRepository.rename(feedId, 1L, title);
+    public void renameSubscription(Long feedId, String title, Long userId) {
+        subscriptionRepository.rename(feedId, userId, title);
     }
 }

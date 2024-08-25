@@ -7,10 +7,7 @@ import feedaggregator.service.UserService;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 
@@ -24,8 +21,8 @@ public class UserController {
     private UserService userService;
 
     @GetMapping("/api/user")
-    public ResponseEntity<?> getUser() {
-        User user = userRepository.getById(1L);
+    public ResponseEntity<?> getUser(@RequestAttribute Long userId) {
+        User user = userRepository.getById(userId);
         return ResponseEntity.ok(UserDto.fromEntity(user));
     }
 

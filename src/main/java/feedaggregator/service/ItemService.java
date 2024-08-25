@@ -22,27 +22,27 @@ public class ItemService {
     @Autowired
     private UserRepository userRepository;
 
-    public void markRead(Item item, boolean read) {
+    public void markRead(Item item, boolean read, Long userId) {
         ReadItem readItem = new ReadItem();
         readItem.setItem(item);
-        User user = userRepository.getById(1L);
+        User user = userRepository.getById(userId);
         readItem.setUser(user);
         if (read) itemRepository.markRead(readItem);
-        else itemRepository.markUnread(item.getId(), 1L);
+        else itemRepository.markUnread(item.getId(), userId);
     }
 
-    public void markAllRead(List<Long> itemIds) {
+    public void markAllRead(List<Long> itemIds, Long userId) {
         for (Long itemId : itemIds) {
-            markRead(itemRepository.findById(itemId), true);
+            markRead(itemRepository.findById(itemId), true, userId);
         }
     }
 
-    public void markStar(Item item, boolean star) {
+    public void markStar(Item item, boolean star, Long userId) {
         StarItem starItem = new StarItem();
         starItem.setItem(item);
-        User user = userRepository.getById(1L);
+        User user = userRepository.getById(userId);
         starItem.setUser(user);
         if (star) itemRepository.markStar(starItem);
-        else itemRepository.markUnstar(item.getId(), 1L);
+        else itemRepository.markUnstar(item.getId(), userId);
     }
 }

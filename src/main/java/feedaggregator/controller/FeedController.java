@@ -39,32 +39,35 @@ public class FeedController {
     private SubscriptionService subscriptionService;
 
     @PostMapping(value = "/api/feeds/subscribe")
-    public ResponseEntity<?> subscribe(@RequestBody String feedLink) {
-        Subscription subscription = subscriptionService.subscribe(feedLink);
+    public ResponseEntity<?> subscribe(@RequestBody String feedLink,
+                                       @RequestAttribute Long userId) {
+        Subscription subscription = subscriptionService.subscribe(feedLink, userId);
         feedDownloader.asyncDownloadFeed(subscription.getFeed());
         return ResponseEntity.ok(SubscriptionDto.fromEntity(subscription, 0L));
     }
 
     @DeleteMapping("/api/feeds/{feedId}/unsubscribe")
-    public ResponseEntity<?> unsubscribe(@PathVariable Long feedId) {
-        subscriptionRepository.unsubscribe(feedId, 1L);
+    public ResponseEntity<?> unsubscribe(@PathVariable Long feedId,
+                                         @RequestAttribute Long userId) {
+        subscriptionRepository.unsubscribe(feedId, userId);
         return ResponseEntity.ok().build();
     }
 
     @GetMapping("/api/feeds")
-    public ResponseEntity<?> getFeeds() {
-        List<Subscription> subscriptions = subscriptionRepository.getSubscriptions(1L);
+    public ResponseEntity<?> getFeeds(@RequestAttribute Long userId) {
+        List<Subscription> subscriptions = subscriptionRepository.getSubscriptions(userId);
         List<SubscriptionDto> subscriptionDtos = subscriptions.stream()
-                .map(subscription -> SubscriptionDto.fromEntity(subscription, itemRepository.getUnreadItemsCount(subscription.getFeed().getId(), 1L)))
+                .map(subscription -> SubscriptionDto.fromEntity(subscription, itemRepository.getUnreadItemsCount(subscription.getFeed().getId(), userId)))
                 .toList();
         return ResponseEntity.ok(subscriptionDtos);
     }
 
     @GetMapping("/api/feeds/{id}")
-    public ResponseEntity<?> getFeed(@PathVariable Long id) {
-        Subscription subscription = subscriptionRepository.getSubscription(id, 1L);
+    public ResponseEntity<?> getFeed(@PathVariable Long id,
+                                     @RequestAttribute Long userId) {
+        Subscription subscription = subscriptionRepository.getSubscription(id, userId);
         if (subscription == null) return ResponseEntity.notFound().build();
-        return ResponseEntity.ok(SubscriptionDto.fromEntity(subscription, itemRepository.getUnreadItemsCount(id, 1L)));
+        return ResponseEntity.ok(SubscriptionDto.fromEntity(subscription, itemRepository.getUnreadItemsCount(id, userId)));
     }
 
     @GetMapping("/api/feeds/{id}/icon")
@@ -75,9 +78,10 @@ public class FeedController {
 
     @PostMapping("/api/feeds/{id}/update")
     public ResponseEntity<?> updateFeed(@PathVariable Long id,
-                                        @RequestParam boolean descOrder) throws IOException, ParserConfigurationException, InterruptedException, SAXException {
+                                        @RequestParam boolean descOrder,
+                                        @RequestAttribute Long userId) throws IOException, ParserConfigurationException, InterruptedException, SAXException {
         feedDownloader.downloadFeed(id);
-        List<UserItem> userItems = itemRepository.getUserItems(1L, id, descOrder, false, false);
+        List<UserItem> userItems = itemRepository.getUserItems(userId, id, descOrder, false, false);
         List<ItemDto> itemDtos = new ArrayList<>();
         for (UserItem userItem : userItems) {
             itemDtos.add(ItemDto.fromEntity(userItem.item(), userItem.item().getFeed().getId(), userItem.read(), userItem.starred()));
@@ -87,8 +91,9 @@ public class FeedController {
 
     @PatchMapping(value = "/api/feeds/{feedId}/rename", consumes = "application/json")
     public ResponseEntity<?> renameFeed(@PathVariable Long feedId,
-                                        @RequestBody JsonNode body) {
-        subscriptionService.renameSubscription(feedId, body.textValue());
+                                        @RequestBody JsonNode body,
+                                        @RequestAttribute Long userId) {
+        subscriptionService.renameSubscription(feedId, body.textValue(), userId);
         return ResponseEntity.noContent().build();
     }
 }

@@ -32,10 +32,12 @@ public class TokenFilter extends HttpFilter {
                 return;
             }
             String token = StringUtils.substringAfter(header, "Bearer ");
-            if (!tokenService.isValidToken(token)) {
+            Long userId = tokenService.getUserIdFromToken(token);
+            if (userId == null) {
                 response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
                 return;
             }
+            request.setAttribute("userId", userId);
         }
         super.doFilter(request, response, chain);
     }

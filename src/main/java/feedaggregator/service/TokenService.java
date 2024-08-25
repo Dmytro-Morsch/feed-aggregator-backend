@@ -17,11 +17,11 @@ import java.util.Date;
 @Service
 public class TokenService {
 
-    public String createToken(String email) {
+    public String createToken(Long userId) {
         try {
             JWSSigner signer = new MACSigner(tokenSignKey());
             JWTClaimsSet claimsSet = new JWTClaimsSet.Builder()
-                    .subject(email)
+                    .subject(userId.toString())
                     .expirationTime(new Date(new Date().getTime() + 5 * 60 * 1000))
                     .build();
 
@@ -34,11 +34,12 @@ public class TokenService {
         }
     }
 
-    public boolean isValidToken(String token) {
+    public Long getUserIdFromToken(String token) {
         try {
             SignedJWT signedJWT = SignedJWT.parse(token);
+            long userId = Long.parseLong(signedJWT.getJWTClaimsSet().getSubject());
             JWSVerifier verifier = new MACVerifier(tokenSignKey());
-            return signedJWT.verify(verifier);
+            return signedJWT.verify(verifier) ? userId : null;
         } catch (ParseException | JOSEException | IOException e) {
             throw new RuntimeException(e);
         }
