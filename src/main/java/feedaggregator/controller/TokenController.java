@@ -23,6 +23,7 @@ public class TokenController {
     @PostMapping("/api/token")
     public ResponseEntity<String> getToken(@RequestBody Map<String, String> body) {
         User user = userRepository.findByEmail(body.get("email"));
+        if (user == null) return ResponseEntity.notFound().build();
         if (!user.getPassword().equals(body.get("password"))) return ResponseEntity.status(401).build();
         return ResponseEntity.ok(tokenService.createToken(user.getId()));
     }

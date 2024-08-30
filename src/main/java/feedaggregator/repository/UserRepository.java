@@ -4,6 +4,7 @@ import feedaggregator.module.User;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.Query;
 import jakarta.transaction.Transactional;
+import org.springframework.dao.support.DataAccessUtils;
 import org.springframework.stereotype.Repository;
 
 @Repository
@@ -25,7 +26,7 @@ public class UserRepository {
     public User findByEmail(String email) {
         Query query = entityManager.createQuery("from User where email = :email");
         query.setParameter("email", email);
-        return (User) query.getSingleResult();
+        return (User) DataAccessUtils.singleResult(query.getResultList());
     }
 
     public void save(User user) {

@@ -18,11 +18,6 @@ public class UserService {
         userRepository.save(user);
     }
 
-    public boolean isValidCredential(String email, String password) {
-        User user = userRepository.findByEmail(email);
-        return user.getPassword().equals(password);
-    }
-
     public boolean userExists(String email) {
         User user = userRepository.findByEmail(email);
         return user != null;

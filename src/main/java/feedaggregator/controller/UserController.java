@@ -4,12 +4,11 @@ import feedaggregator.dto.UserDto;
 import feedaggregator.module.User;
 import feedaggregator.repository.UserRepository;
 import feedaggregator.service.UserService;
-import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.io.IOException;
+import java.util.Map;
 
 @RestController
 public class UserController {
@@ -27,11 +26,9 @@ public class UserController {
     }
 
     @PostMapping("/api/user/signup")
-    public void signup(@RequestParam String username,
-                       @RequestParam String email,
-                       @RequestParam String password,
-                       HttpServletResponse response) throws IOException {
-        userService.registerUser(username, email, password);
-//        response.sendRedirect("/login");
+    public ResponseEntity<?> signup(@RequestBody Map<String, String> user) {
+        if (userService.userExists(user.get("email"))) return ResponseEntity.status(409).build();
+        userService.registerUser(user.get("username"), user.get("email"), user.get("password"));
+        return ResponseEntity.ok().build();
     }
 }

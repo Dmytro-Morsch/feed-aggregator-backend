@@ -21,7 +21,7 @@ public class TokenFilter extends HttpFilter {
     @Override
     protected void doFilter(HttpServletRequest request, HttpServletResponse response, FilterChain chain) throws IOException, ServletException {
         String pathInfo = request.getRequestURI();
-        if (pathInfo != null && !pathInfo.startsWith("/api/token")) {
+        if (pathInfo != null && !pathInfo.startsWith("/api/token") && !pathInfo.startsWith("/api/user/signup") && !pathInfo.matches("/api/feeds/\\d+/icon")) {
             String header = request.getHeader("Authorization");
             if (header == null) {
                 response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
