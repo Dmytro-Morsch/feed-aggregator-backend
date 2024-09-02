@@ -32,4 +32,21 @@ public class UserRepository {
     public void save(User user) {
         entityManager.persist(user);
     }
+
+    public void update(User user) {
+        Query query = entityManager.createQuery("""
+                update User
+                set email = :email,
+                emailHash = :emailHash,
+                username = :username,
+                password = :password
+                where id = :id
+                """);
+        query.setParameter("email", user.getEmail());
+        query.setParameter("emailHash", user.getEmailHash());
+        query.setParameter("username", user.getUsername());
+        query.setParameter("password", user.getPassword());
+        query.setParameter("id", user.getId());
+        query.executeUpdate();
+    }
 }
