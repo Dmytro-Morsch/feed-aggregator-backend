@@ -23,9 +23,9 @@ public class UserRepository {
         return (User) query.getSingleResult();
     }
 
-    public User findByEmail(String email) {
-        Query query = entityManager.createQuery("from User where email = :email");
-        query.setParameter("email", email);
+    public User findByEmailHash(String emailHash) {
+        Query query = entityManager.createQuery("from User where emailHash = :emailHash");
+        query.setParameter("emailHash", emailHash);
         return (User) DataAccessUtils.singleResult(query.getResultList());
     }
 

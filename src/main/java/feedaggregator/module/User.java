@@ -13,6 +13,8 @@ public class User {
 
     private String email;
 
+    private String emailHash;
+
     private String username;
 
     private String password;
@@ -34,6 +36,14 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getEmailHash() {
+        return emailHash;
+    }
+
+    public void setEmailHash(String emailHash) {
+        this.emailHash = emailHash;
     }
 
     public String getUsername() {

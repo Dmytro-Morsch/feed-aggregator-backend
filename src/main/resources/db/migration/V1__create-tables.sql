@@ -24,6 +24,7 @@ create table "user"
 (
     id       bigint primary key generated always as identity,
     email    varchar(100) not null,
+    email_hash varchar(100) not null,
     username varchar(100) not null,
     password varchar(100) not null
 );

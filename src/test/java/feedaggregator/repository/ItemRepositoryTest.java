@@ -1,6 +1,7 @@
 package feedaggregator.repository;
 
 import feedaggregator.module.*;
+import feedaggregator.util.Crypto;
 import jakarta.transaction.Transactional;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -42,8 +43,10 @@ class ItemRepositoryTest {
         feedRepository.save(feed);
 
         user = new User();
+        user.setUsername("Test");
         user.setEmail("test@example.com");
-        user.setUsername("Dima");
+        user.setEmailHash(Crypto.sha256("test@example.com"));
+        user.setPassword("secret");
         userRepository.save(user);
 
         createItems();

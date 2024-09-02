@@ -3,6 +3,7 @@ package feedaggregator.controller;
 import feedaggregator.dto.UserDto;
 import feedaggregator.module.User;
 import feedaggregator.repository.UserRepository;
+import feedaggregator.service.EncryptionService;
 import feedaggregator.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -12,16 +13,19 @@ import java.util.Map;
 
 @RestController
 public class UserController {
-
     @Autowired
     private UserRepository userRepository;
 
     @Autowired
     private UserService userService;
 
+    @Autowired
+    private EncryptionService encryptionService;
+
     @GetMapping("/api/user")
     public ResponseEntity<?> getUser(@RequestAttribute Long userId) {
         User user = userRepository.getById(userId);
+        user.setEmail(encryptionService.decrypt(user.getEmail()));
         return ResponseEntity.ok(UserDto.fromEntity(user));
     }
 
