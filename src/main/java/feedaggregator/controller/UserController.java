@@ -12,6 +12,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 @RestController
 public class UserController {
@@ -53,6 +55,7 @@ public class UserController {
 
         String newPassword = body.get("password");
         if (newPassword != null) {
+            if (!isPasswordValid(newPassword)) return ResponseEntity.badRequest().build();
             user.setPassword(passwordEncoder.encode(newPassword));
         }
         user.setUsername(body.get("username"));
@@ -65,7 +68,15 @@ public class UserController {
     @PostMapping("/api/user/signup")
     public ResponseEntity<?> signup(@RequestBody Map<String, String> user) {
         if (userService.userExists(user.get("email"))) return ResponseEntity.status(409).build();
+        if (!isPasswordValid(user.get("password"))) return ResponseEntity.badRequest().build();
+        if (!user.get("repeatPassword").equals(user.get("password"))) return ResponseEntity.badRequest().build();
         userService.registerUser(user.get("username"), user.get("email"), user.get("password"));
         return ResponseEntity.ok().build();
+    }
+
+    private boolean isPasswordValid(String password) {
+        Pattern pattern = Pattern.compile("^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,}$");
+        Matcher matcher = pattern.matcher(password);
+        return matcher.find();
     }
 }
