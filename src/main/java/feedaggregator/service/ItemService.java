@@ -25,7 +25,7 @@ public class ItemService {
     public void markRead(Item item, boolean read, Long userId) {
         ReadItem readItem = new ReadItem();
         readItem.setItem(item);
-        User user = userRepository.getById(userId);
+        User user = userRepository.findById(userId);
         readItem.setUser(user);
         if (read) itemRepository.markRead(readItem);
         else itemRepository.markUnread(item.getId(), userId);
@@ -40,7 +40,7 @@ public class ItemService {
     public void markStar(Item item, boolean star, Long userId) {
         StarItem starItem = new StarItem();
         starItem.setItem(item);
-        User user = userRepository.getById(userId);
+        User user = userRepository.findById(userId);
         starItem.setUser(user);
         if (star) itemRepository.markStar(starItem);
         else itemRepository.markUnstar(item.getId(), userId);

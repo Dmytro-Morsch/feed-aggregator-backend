@@ -33,7 +33,7 @@ public class SubscriptionService {
             feedRepository.save(feed);
         }
 
-        User user = userRepository.getById(userId);
+        User user = userRepository.findById(userId);
         Subscription subscription = new Subscription();
         subscription.setUser(user);
         subscription.setFeed(feed);

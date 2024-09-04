@@ -17,10 +17,10 @@ public class UserRepository {
         this.entityManager = entityManager;
     }
 
-    public User getById(Long id) {
+    public User findById(Long id) {
         Query query = entityManager.createQuery("from User where id = :id");
         query.setParameter("id", id);
-        return (User) query.getSingleResult();
+        return (User) DataAccessUtils.singleResult(query.getResultList());
     }
 
     public User findByEmailHash(String emailHash) {
@@ -48,5 +48,9 @@ public class UserRepository {
         query.setParameter("password", user.getPassword());
         query.setParameter("id", user.getId());
         query.executeUpdate();
+    }
+
+    public void delete(User user) {
+        entityManager.remove(user);
     }
 }

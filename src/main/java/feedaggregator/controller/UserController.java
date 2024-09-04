@@ -31,7 +31,7 @@ public class UserController {
 
     @GetMapping("/api/user")
     public ResponseEntity<?> getUser(@RequestAttribute Long userId) {
-        User user = userRepository.getById(userId);
+        User user = userRepository.findById(userId);
         user.setEmail(encryptionService.decrypt(user.getEmail()));
         return ResponseEntity.ok(UserDto.fromEntity(user));
     }
@@ -39,7 +39,7 @@ public class UserController {
     @PatchMapping("/api/user/update")
     public ResponseEntity<?> patchUser(@RequestBody Map<String, String> body,
                                        @RequestAttribute Long userId) {
-        User user = userRepository.getById(userId);
+        User user = userRepository.findById(userId);
         if (user == null) return ResponseEntity.notFound().build();
 
         String newEmail = body.get("email");
@@ -71,6 +71,14 @@ public class UserController {
         if (!isPasswordValid(user.get("password"))) return ResponseEntity.badRequest().build();
         if (!user.get("repeatPassword").equals(user.get("password"))) return ResponseEntity.badRequest().build();
         userService.registerUser(user.get("username"), user.get("email"), user.get("password"));
+        return ResponseEntity.ok().build();
+    }
+
+    @DeleteMapping("/api/user/delete")
+    public ResponseEntity<?> delete(@RequestAttribute Long userId) {
+        User user = userRepository.findById(userId);
+        if (user == null) return ResponseEntity.notFound().build();
+        userRepository.delete(user);
         return ResponseEntity.ok().build();
     }
 
