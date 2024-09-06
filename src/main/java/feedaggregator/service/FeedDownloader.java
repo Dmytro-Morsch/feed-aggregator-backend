@@ -56,14 +56,24 @@ public class FeedDownloader {
         log.info("Downloading feed {}", feed.getFeedLink());
         HttpClient httpClient = HttpClient.newBuilder().build();
         HttpRequest request = HttpRequest.newBuilder()
+                .header("Accept", "application/rss+xml")
                 .uri(URI.create(feed.getFeedLink()))
                 .GET()
                 .build();
         HttpResponse<byte[]> response = httpClient.send(request, HttpResponse.BodyHandlers.ofByteArray());
-        ByteArrayInputStream bais = new ByteArrayInputStream(response.body());
+        byte[] body = response.body();
+        ByteArrayInputStream bais = new ByteArrayInputStream(body);
 
         RssParser rssParser = new RssParser();
-        RssParser.ParseResult result = rssParser.parse(bais, feed);
+        RssParser.ParseResult result = null;
+        try {
+            result = rssParser.parse(bais, feed);
+        } catch (ParserConfigurationException | SAXException | IOException e) {
+            log.debug(String.valueOf(request.headers()));
+            log.debug(String.valueOf(response.headers()));
+            log.debug(new String(body));
+            throw new RuntimeException(e);
+        }
 
         feed.setIcon(downloadSiteIcon(feed.getSiteLink()));
         feed.setLoaded(true);

@@ -47,4 +47,11 @@ Start backend server:
 mvn spring-boot:run
 ```
 
+Create secret key:
+
+```shell
+openssl rand 32 > dbencrypt.key
+kubectl create secret generic feed-aggregator-dbencrypt --from-file=dbencrypt.key
+```
+
 Frontend part: https://github.com/Dmytro-Morsch/feed-aggregator-frontend
