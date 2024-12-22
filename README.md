@@ -14,17 +14,19 @@ Install JDK 17, Maven, and Postgres.
 Create database and app user:
 
 ``` sql
-create database feed_aggregator;
-create user feed_aggregator with encrypted password 'feed_aggregator';
-grant all privileges on database feed_aggregator to feed_aggregator;
+CREATE USER feed_aggregator WITH ENCRYPTED PASSWORD 'feed_aggregator';
+CREATE SCHEMA feed_aggregator AUTHORIZATION feed_aggregator;
+GRANT USAGE ON SCHEMA feed_aggregator TO feed_aggregator;
+ALTER ROLE feed_aggregator SET search_path TO feed_aggregator;
 ```
 
 Create database and app user for `testing`:
 
 ``` sql
-create database feed_aggregator_test;
-create user feed_aggregator_test with encrypted password 'feed_aggregator_test';
-grant all privileges on database feed_aggregator_test to feed_aggregator_test;
+CREATE USER feed_aggregator_test WITH ENCRYPTED PASSWORD 'feed_aggregator_test';
+CREATE SCHEMA feed_aggregator_test AUTHORIZATION feed_aggregator_test;
+GRANT USAGE ON SCHEMA feed_aggregator_test TO feed_aggregator_test;
+ALTER ROLE feed_aggregator_test SET search_path TO feed_aggregator_test;
 ```
 
 Create file `application.properties`:
