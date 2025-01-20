@@ -8,6 +8,10 @@ import org.springframework.stereotype.Service;
 public class HtmlSanitizer {
 
     public String sanitize(String rawHtml) {
-        return Jsoup.clean(rawHtml, Safelist.basic());
+        Safelist safelist = Safelist.basic()
+                .addTags("img")
+                .addAttributes("img", "src", "alt", "title", "width", "height");
+
+        return Jsoup.clean(rawHtml, safelist);
     }
 }
