@@ -2,6 +2,7 @@ package feedaggregator.service;
 
 import feedaggregator.RssParser;
 import feedaggregator.module.Feed;
+import feedaggregator.module.FeedStatus;
 import feedaggregator.repository.FeedRepository;
 import feedaggregator.repository.ItemRepository;
 import jakarta.transaction.Transactional;
@@ -19,6 +20,7 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.nio.charset.Charset;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -45,6 +47,8 @@ public class FeedDownloader {
             try {
                 downloadFeed(feed.getId());
             } catch (IOException | InterruptedException | ParserConfigurationException | SAXException e) {
+                feed.setStatus(FeedStatus.DOWNLOAD_FAILED);
+                feedRepository.save(feed);
                 log.error("Download failed", e);
             }
             return null;
@@ -65,18 +69,18 @@ public class FeedDownloader {
         ByteArrayInputStream bais = new ByteArrayInputStream(body);
 
         RssParser rssParser = new RssParser();
-        RssParser.ParseResult result = null;
+        RssParser.ParseResult result;
         try {
             result = rssParser.parse(bais, feed);
         } catch (ParserConfigurationException | SAXException | IOException e) {
             log.debug(String.valueOf(request.headers()));
             log.debug(String.valueOf(response.headers()));
-            log.debug(new String(body));
+            log.debug(new String(body, Charset.forName("windows-1251")));
             throw new RuntimeException(e);
         }
 
         feed.setIcon(downloadSiteIcon(feed.getSiteLink()));
-        feed.setLoaded(true);
+        feed.setStatus(FeedStatus.DOWNLOADED);
         feedRepository.save(feed);
         result.items().forEach(item -> {
             item.setFeed(feed);

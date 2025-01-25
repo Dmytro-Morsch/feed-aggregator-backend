@@ -1,6 +1,7 @@
 package feedaggregator.service;
 
 import feedaggregator.module.Feed;
+import feedaggregator.module.FeedStatus;
 import feedaggregator.module.Subscription;
 import feedaggregator.module.User;
 import feedaggregator.repository.FeedRepository;
@@ -30,6 +31,7 @@ public class SubscriptionService {
             feed.setFeedLink(feedLink);
             feed.setSiteLink(feedLink);
             feed.setTitle(feedLink);
+            feed.setStatus(FeedStatus.CREATED);
             feedRepository.save(feed);
         }
 

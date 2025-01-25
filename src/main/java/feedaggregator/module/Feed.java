@@ -20,7 +20,8 @@ public class Feed {
 
     private byte[] icon;
 
-    private boolean loaded;
+    @Enumerated(EnumType.STRING)
+    private FeedStatus status;
 
     @OneToMany(mappedBy = "feed")
     private Set<Subscription> subscriptions;
@@ -73,11 +74,11 @@ public class Feed {
         this.icon = icon;
     }
 
-    public boolean isLoaded() {
-        return loaded;
+    public FeedStatus getStatus() {
+        return status;
     }
 
-    public void setLoaded(boolean loaded) {
-        this.loaded = loaded;
+    public void setStatus(FeedStatus status) {
+        this.status = status;
     }
 }

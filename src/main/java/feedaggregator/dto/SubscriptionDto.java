@@ -9,7 +9,7 @@ public class SubscriptionDto {
     public String description;
     public String feedLink;
     public String siteLink;
-    public boolean loaded;
+    public String status;
     public long countUnreadItems;
 
     public static SubscriptionDto fromEntity(Subscription subscription, long countUnreadItems) {
@@ -24,7 +24,7 @@ public class SubscriptionDto {
         subDto.description = feed.getDescription();
         subDto.feedLink = feed.getFeedLink();
         subDto.siteLink = feed.getSiteLink();
-        subDto.loaded = feed.isLoaded();
+        subDto.status = feed.getStatus().name();
         subDto.countUnreadItems = countUnreadItems;
         return subDto;
     }
